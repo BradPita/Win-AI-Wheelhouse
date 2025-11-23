@@ -170,7 +170,7 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 | `2.8.0` | `2.9.0` | N/A | `12.8` | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/torchaudio-2.8.0a0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl?download=true) |
 <!-- END_TORCHAUDIO_TABLE -->
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### Flash Attention
 高性能注意力实现。
@@ -220,7 +220,7 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 | `2.7.4` | `2.6.0` | `3.10` | `12.4` | ✗ | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/resolve/main/flash_attn-2.7.4+cu124torch2.6.0cxx11abiFALSE-cp310-cp310-win_amd64.whl?download=true) |
 <!-- END_FLASHATTENTION_TABLE -->
   
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### xformers
 内存友好的注意力及优化组件库。
@@ -242,7 +242,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.32.post2` | `2.8.0` | `3.9` | `12.6` | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl) |
 <!-- END_XFORMERS_TABLE --> 
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### SageAttention
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
@@ -311,9 +311,9 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.2.0` | `2.7.1` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0+cu128torch2.7.1-cp39-cp39-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
-### SpargeAttn  
+## SpargeAttn  
 *   **官方仓库**： [thu-ml/SpargeAttn](https://github.com/thu-ml/SpargeAttn)
 *   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SpargeAttn/releases)
 <!-- START_SPARGEATTN_TABLE -->
@@ -324,7 +324,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.1.0.post1` | `2.7.1` | `12.8` | [Link](https://github.com/woct0rdho/SpargeAttn/releases/download/v0.1.0-windows.post1/spas_sage_attn-0.1.0+cu128torch2.7.1.post1-cp39-abi3-win_amd64.whl) |
 <!-- END_SPARGEATTN_TABLE -->
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### Nunchaku
 *   **官方仓库**： [mit-han-lab/nunchaku](https://github.com/mit-han-lab/nunchaku/releases)
@@ -406,7 +406,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.3.2` | `2.5` | `3.10` | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2/nunchaku-0.3.2+torch2.5-cp310-cp310-win_amd64.whl) |
 <!-- END_NUNCHAKU_TABLE -->
   
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### NATTEN
 Neighborhood Attention Transformer。
@@ -436,7 +436,7 @@ Neighborhood Attention Transformer。
 | `0.17.3` | `2.4.0` | `3.11` | `12.4` | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3+torch240cu124-cp311-cp311-win_amd64.whl) |
 | `0.17.3` | `2.4.0` | `3.10` | `12.4` | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3+torch240cu124-cp310-cp310-win_amd64.whl) |
 <!-- END_NATTEN_TABLE -->
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 <a id="tritonwindows-fork"></a>
 ### Triton（Windows Fork）
@@ -444,13 +444,13 @@ Triton 是用于编写高效深度学习算子的语言与编译器，官方暂�
 *   **Windows Fork**： [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows/releases)
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### bitsandbytes
 围绕 CUDA 自定义算子的轻量封装，提供 8-bit 优化器、矩阵乘（LLM.int8()）与量化能力。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
 
-<p align="center">▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲</p>
+****
 
 ### RadialAttention for ComfyUI
 *   **节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
