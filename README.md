@@ -4,7 +4,7 @@
 <div align="center">
   <h1 align="center">Windows AI Wheelhouse</h1>
 
-<img src="https://github.com/user-attachments/assets/b5a86223-4134-4c1a-bce9-215c741be45d" alt="AI-windows-whl logo">
+<img src="https://github.com/user-attachments/assets/b5a86223-4134-4c1a-bce9-215c741be45d" alt=">Windows AI Wheelhouse logo">
 
   <p align="center">
     面向 Windows 平台的 AI/ML 难装库预编译 Python 轮子合集。
