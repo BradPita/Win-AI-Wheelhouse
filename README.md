@@ -57,7 +57,7 @@
 
 ## 致敬与启发
 
-本项目深受 wildminder 的 [AI-windows-whl](https://github.com/wildminder/AI-windows-whl 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
+本项目深受 wildminder 的 [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
 
 <!-- GETTING STARTED -->
 <a id="快速开始"></a>
