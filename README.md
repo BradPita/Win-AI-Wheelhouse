@@ -7,12 +7,12 @@
 <img src="https://github.com/BradPita/images/blob/main/WinAiWheelhouse.png" alt=">Windows AI Wheelhouse logo">
 
   <p align="center">
-    面向 Windows 平台的 AI/ML 难装库预编译 Python 轮子合集。
+    面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <a href="https://github.com/wildminder/AI-windows-whl/issues/new?labels=bug&template=bug-report---.md">报告失效链接</a>
+    <a href="https://github.com/BradPit/Win-AI-Wheelhouse/issues/new?labels=bug&template=bug-report---.md">报告失效链接</a>
     ·
-    <a href="https://github.com/wildminder/AI-windows-whl/issues/new?labels=enhancement&template=feature-request---.md">请求新增轮子</a>
+    <a href="https://github.com/BradPit/Win-AI-Wheelhouse/issues/new?labels=enhancement&template=feature-request---.md">请求新增轮子</a>
   </p>
 </div>
 
@@ -48,39 +48,16 @@
 
 
 <!-- ABOUT THE PROJECT -->
-<a id="关于项目"></a>
-## 关于项目
+<a id="项目愿景"></a>
+## 项目愿景
 
-这个仓库旨在解决 Windows 平台 AI 爱好者与开发者的共同痛点：**需要自己从源码构建复杂的 Python 包**。像 `flash-attention`、`xformers` 这样的高性能库往往缺少官方 Windows 预编译 wheel，导致编译流程复杂且易踩坑。
+在 Windows 平台上，AI 爱好者常常面临一个共同的挑战：**那些如 `flash-attention`、`xformers` 等高性能的 Python 库，往往缺乏官方提供的 Windows 预编译 `.whl` 包。** 这使得从源码构建成为一个耗时且易错的过程，阻碍了许多创新想法的迅速实现。
 
-我们希望提供一个集中且持续更新的 `.whl` 直链清单，主要服务 **ComfyUI** 社区和其他 Windows 上的 PyTorch 用户，让大家把时间花在真正重要的创作上。
+**`win-wheelhouse`** 致力于解决这一痛点。我们希望建立一个**集中、持续更新的 `.whl` 文件直链清单**，让 Windows 上的 PyTorch 用户（尤其是 **ComfyUI 社区**的成员）能够告别繁琐的编译流程，将宝贵的时间投入到 AI 创作与探索之中。
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+## 致敬与启发
 
-<p align="center">══════════════════════════════════</p>
-
-除了代码，我更相信社区与持续学习的力量。欢迎加入「TokenDiff AI News」与「TokenDiff Community Hub」。
-
-<table border="0" align="center" cellspacing="10" cellpadding="0">
-  <tr>
-    <td align="center" valign="top">
-      <h4>TokenDiff AI News</h4>
-      <a href="https://t.me/TokenDiff">
-        <img width="50%" alt="tokendiff-tg-qw" src="https://github.com/user-attachments/assets/e29f6b3c-52e5-4150-8088-12163a2e1e78" />
-      </a>
-      <p><sub>让 AI 走进每个家庭，让创意走进每个人。</sub></p>
-    </td>
-    <td align="center" valign="top">
-      <h4>TokenDiff Community Hub</h4>
-      <a href="https://t.me/TokenDiff_hub">
-        <img width="50%" alt="token_hub-tg-qr" src="https://github.com/user-attachments/assets/da544121-5f5b-4e3d-a3ef-02272535929e" />
-      </a>
-      <p><sub>提问、求助与深入交流都在这里。</sub> </p>
-    </td>
-  </tr>
-</table>
-
-<p align="center">══════════════════════════════════</p>
+本项目深受 wildminder 的 [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
 
 <!-- GETTING STARTED -->
 <a id="快速开始"></a>
@@ -266,7 +243,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.1.1` | `2.5.1` | `3.9` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1+cu124torch2.5.1-cp39-cp39-win_amd64.whl) |
 <!-- END_SAGEATTENTION2_TABLE -->
 
-◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇
+***
 
 #### SageAttention 2.2 (SageAttention2++)
 > [!NOTE]
