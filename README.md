@@ -59,29 +59,23 @@
 <a id="-项目愿景"></a>
 ## 🟦 项目愿景
 
-在 Windows 平台上，AI 爱好者常常面临一个共同的挑战：**那些如 `flash-attention`、`xformers` 等高性能的 Python 库，往往缺乏官方提供的 Windows 预编译 `.whl` 包。** 这使得从源码构建成为一个耗时且易错的过程，阻碍了许多创新想法的迅速实现。
-
-**`Win-AI-Wheelhouse`** 致力于解决这一痛点。我们希望建立一个**集中、持续更新的 `.whl` 文件直链清单**，让 Windows 上的 PyTorch 用户（尤其是 **ComfyUI 社区**的成员）能够告别繁琐的编译流程，将宝贵的时间投入到 AI 创作与探索之中。
-
-<a id="-致敬与启发"></a>
-## 🟦 致敬与启发
-
-本项目深受 wildminder 的 [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
-
-### 关于本项目
-
-本项目作为一个**学习和实践的项目**，在延续 wildminder 优秀理念的基础上，尝试通过以下方式提供一些补充：
+本项目作为一个**学习和实践的项目**，在延续 wildminder [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 优秀理念的基础上，尝试通过以下方式提供一些补充：
 
 - 🤖 **自动化更新**：通过 GitHub Actions 定期自动抓取和更新 wheel 链接
 - 📊 **多源聚合**：整合来自不同社区贡献者的预编译资源
 - 📖 **结构化呈现**：按版本和依赖关系分类展示，便于查找
 - 🔍 **智能解析**：自动识别版本号、CXX11 ABI 等元数据
 
-这些尝试完全出于个人学习目的，也希望能够为社区提供一个不同角度的资讯汇整。我们深知自己的不足，也非常感谢前辈们铺就的道路。如果本项目能为更多 Windows AI 爱好者节省一点时间，让大家能够更专注于创作和探索，那就是我们最大的荣幸。
+这些尝试完全出于个人学习目的，也希望能够为社区提供一个不同角度的资讯汇整。如果本项目能为更多 Windows AI 爱好者节省一点点时间，让大家能够更专注于创作和探索，那便这个项目最大的荣幸。
 
-特别感谢 [Eddy](https://github.com/eddyhhlure1) 孜孜不倦的精神和无私的指导。从接触他的 [Palingenesis 模型](https://huggingface.co/eddy1111111/WAN22.XX_Palingenesis)开始，他的热情和耐心让我能够从零基础开始尝试撰写代码。
+<a id="-致敬与启发"></a>
+## 🟦 致敬与启发
 
-### 我的第一个 AIGC 作品
+本项目深受 wildminder [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
+
+特别感谢 [Eddy](https://github.com/eddyhhlure1) 孜孜不倦的精神和无私的指导。从接触他的 [Palingenesis 模型](https://huggingface.co/eddy1111111/WAN22.XX_Palingenesis) 开始，是他的热情感召，让我这样一个影视从业者，能够开始尝试撰写自己需要的代码。
+
+### 我的 Palingenesis AIGC 作品
 使用 Eddy 的 Palingenesis 模型创作的 MV：
 
 <div align="center">
@@ -122,11 +116,11 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 <a id="-cxx11-abi-说明"></a>
 ## 🟦 CXX11 ABI 说明
 
-部分表格包含 **CXX11 ABI** 列，这是 C++ 编译器的两种不兼容模式：
+部分表格包含 **CXX11 ABI** 列，这是 C++ 编译器的两种不兼容模式。表格中使用以下符号标注：
 
-- **`—`**（或未标注）：Pre-CXX11 ABI（旧版，大多数 Windows 用户应选择此版本）
-- **`TRUE`**：CXX11 ABI（新版）
-- **`FALSE`**：明确标注为 Pre-CXX11 ABI
+- **`✓`** 或 **`TRUE`**：启用 CXX11 ABI（新版，适用于新版 PyTorch，通常 2.7.0 及以上）
+- **`✗`** 或 **`FALSE`**：禁用 CXX11 ABI（Pre-CXX11 ABI，旧版）
+- **`—`**（横线或未标注）：未明确标注（大多数 Windows 用户应优先选择此版本）
 
 > [!IMPORTANT]
 > **PyTorch 和扩展库的 CXX11 ABI 必须一致**，否则会导致崩溃或链接错误。
@@ -142,16 +136,16 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 ```
 
 **结果解读**：
-- **输出 `0` 或 `False`** → 使用 Pre-CXX11 ABI，选择 CXX11 ABI 列为 `—` 或 `FALSE` 的 wheel
-- **输出 `1` 或 `True`** → 使用 CXX11 ABI，选择 CXX11 ABI 列为 `TRUE` 的 wheel
+- **输出 `0` 或 `False`** → 使用 Pre-CXX11 ABI，选择 CXX11 ABI 列为 `—`、`✗` 或 `FALSE` 的 wheel
+- **输出 `1` 或 `True`** → 使用 CXX11 ABI，选择 CXX11 ABI 列为 `✓` 或 `TRUE` 的 wheel
 
 ### 快速选择指南
 
 **对于大多数 Windows 用户**（使用 PyTorch 官方版本）：
 
 1. ✅ **优先选择** CXX11 ABI 列显示为 `—` 的 wheel（最兼容）
-2. ✅ **次选** CXX11 ABI 列显示为 `FALSE` 的 wheel（明确兼容）
-3. ⚠️ **仅在确认后选择** CXX11 ABI 列显示为 `TRUE` 的 wheel
+2. ✅ **次选** CXX11 ABI 列显示为 `✗` 或 `FALSE` 的 wheel（明确兼容）
+3. ⚠️ **仅在确认后选择** CXX11 ABI 列显示为 `✓` 或 `TRUE` 的 wheel
 
 > [!TIP]
 > 如果不确定，优先选择未标注 CXX11 ABI（显示 `—`）的版本，这些版本通常与官方 PyTorch 兼容。
@@ -166,7 +160,7 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 
 <a id="pytorch"></a>
 ### ⚙️ PyTorch
-万物根基，优先走官方通道安装。
+深度学习框架的基石，强烈建议优先通过官方渠道安装以确保兼容性。
 *   **官方安装页面**： [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
 为了方便，在 Linux/WSL（NVIDIA GPU）环境下列出常用命令；其他配置（CPU、macOS、ROCm）请参考官网指引。
@@ -212,7 +206,7 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 
 <a id="torchaudio"></a>
 ### ⚙️ Torchaudio
-在某些设备上增加 NN 加速。
+PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功能。
 *   **官方仓库**： [https://github.com/pytorch/audio](https://github.com/pytorch/audio)
 *   **预编译来源**： [Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
 
@@ -231,13 +225,18 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 
 <a id="️-flash-attention"></a>
 ### ⚙️ Flash Attention
-高性能注意力实现。
+高性能注意力机制的先驱实现，通过分块计算和重计算策略大幅降低显存并提速。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
 *   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[mjun0812 GitHub](https://github.com/mjun0812/flash-attention-prebuild-wheels)
 
 <details>
   <summary>展开已收录的 Flash Attention</summary>
   
+> **📝 CXX11 ABI 说明：**  
+> - `✓` = 启用 CXX11 ABI（适用于新版 PyTorch，通常 2.7.0 及以上）
+> - `✗` = 禁用 CXX11 ABI（Pre-CXX11 ABI，适用于旧版或特定配置）
+> - `—` = 未明确标注（请根据您的 PyTorch 版本选择，或参考 [CXX11 ABI 说明](#-cxx11-abi-说明)）
+
 <!-- START_FLASHATTENTION_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | CXX11 ABI | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -423,13 +422,13 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 | `2.8.3` | `2.9.1` | `3.13` | `12.8` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/flash_attn-2.8.3%2Bcu128torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl?download=true) |
 | `2.8.3` | `2.9.1` | `3.13` | `13.0` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl?download=true) |
 <!-- END_FLASHATTENTION_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-xformers"></a>
 ### ⚙️ xformers
-内存友好的注意力及优化组件库。
+Meta 开发的内存高效注意力库，提供多种优化算子，广泛应用于图像生成和 LLM 推理。
 *   **官方仓库**： [facebookresearch/xformers](https://github.com/facebookresearch/xformers/releases)
 *   **PyTorch 官方索引**： [https://download.pytorch.org/whl/xformers/](https://download.pytorch.org/whl/xformers/)
 > [!NOTE]
@@ -594,13 +593,14 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.33` | `2.9` | `3.9` | `13.0` | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/xformers-0.0.33%2Bcu130torch2.9-cp39-abi3-win_amd64.whl?download=true) |
 | `0.0.33` | `2.9+` | `3.9` | `13.0` | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `2.9+` | `3.9` | `13.0` | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
-<!-- END_XFORMERS_TABLE --> 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<!-- END_XFORMERS_TABLE -->
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-sageattention"></a>
 ### ⚙️ SageAttention
+精准且高效的注意力机制，通过平滑量化大幅降低显存占用，同时保持精度。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
 *   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SageAttention/releases)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
 
@@ -635,12 +635,13 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.1.1` | `2.8.0` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.1.1` | `2.8.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp39-cp39-win_amd64.whl) |
 <!-- END_SAGEATTENTION2_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-sageattention-22-sageattention2"></a>
 ### ⚙️ SageAttention 2.2 (SageAttention2++)
+SageAttention 的升级版本，引入更先进的量化策略和优化算法，显存节省更多，速度更快。
 > [!NOTE]
 > 仅支持 CUDA ≥ 12.8，因此需搭配 PyTorch ≥ 2.7。
 
@@ -687,12 +688,13 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.2.0.post4` | `2.9.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu128torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post4` | `2.9.0` | `3.9` | `13.0` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu130torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-spargeattn"></a>
-### ⚙️ SpargeAttn  
+### ⚙️ SpargeAttn
+稀疏注意力机制，通过智能跳过不重要的计算来加速推理，适用于长上下文场景。
 *   **官方仓库**： [thu-ml/SpargeAttn](https://github.com/thu-ml/SpargeAttn)
 *   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SpargeAttn/releases)
 
@@ -720,12 +722,13 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.1.0.post3` | `2.9.0` | `12.8` | [Link](https://github.com/woct0rdho/SpargeAttn/releases/download/v0.1.0-windows.post3/spas_sage_attn-0.1.0%2Bcu128torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
 | `0.1.0.post3` | `2.9.0` | `13.0` | [Link](https://github.com/woct0rdho/SpargeAttn/releases/download/v0.1.0-windows.post3/spas_sage_attn-0.1.0%2Bcu130torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
 <!-- END_SPARGEATTN_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-nunchaku"></a>
 ### ⚙️ Nunchaku
+MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐量。
 *   **官方仓库**： [mit-han-lab/nunchaku](https://github.com/mit-han-lab/nunchaku/releases)
 
 <details>
@@ -1036,13 +1039,13 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `1.1.0.dev20251111` | `2.9` | `3.12` | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.1.0dev20251111/nunchaku-1.1.0.dev20251111%2Btorch2.9-cp312-cp312-win_amd64.whl) |
 | `1.1.0.dev20251111` | `2.9` | `3.13` | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.1.0dev20251111/nunchaku-1.1.0.dev20251111%2Btorch2.9-cp313-cp313-win_amd64.whl) |
 <!-- END_NUNCHAKU_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-natten"></a>
-### ⚙️ NATTEN
-Neighborhood Attention Transformer。
+### ⚙️ NATTEN (Neighborhood Attention Transformer)
+局部邻域注意力实现，在视觉任务中表现出色。
 *   **官方仓库**： [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN)
 *   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/NATTEN-windows/tree/main)
 
@@ -1071,23 +1074,24 @@ Neighborhood Attention Transformer。
 | `0.17.5` | `2.7.0` | `3.11` | `12.8` | [Link](https://huggingface.co/lldacing/NATTEN-windows/resolve/main/natten-0.17.5%2Btorch270cu128-cp311-cp311-win_amd64.whl?download=true) |
 | `0.17.5` | `2.7.0` | `3.12` | `12.8` | [Link](https://huggingface.co/lldacing/NATTEN-windows/resolve/main/natten-0.17.5%2Btorch270cu128-cp312-cp312-win_amd64.whl?download=true) |
 <!-- END_NATTEN_TABLE -->
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 </details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
 <a id="️-tritonwindows-fork"></a>
 ### ⚙️ Triton（Windows Fork）
-Triton 是用于编写高效深度学习算子的语言与编译器，官方暂不支持 Windows，可依赖社区 fork 的预编译包。
+用于编写高效深度学习算子的语言与编译器，官方不支持 Windows，这是社区维护的 Fork 版本。
 *   **Windows Fork**： [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows/releases)
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
 <a id="️-bitsandbytes"></a>
 ### ⚙️ bitsandbytes
-围绕 CUDA 自定义算子的轻量封装，提供 8-bit 优化器、矩阵乘（LLM.int8()）与量化能力。
+轻量级 CUDA 算子库，提供 8-bit 优化器和 LLM 量化支持，大幅降低显存需求。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
 
 <a id="️-radialattention-for-comfyui"></a>
 ### ⚙️ RadialAttention for ComfyUI
+为 ComfyUI 设计的径向注意力节点，提供独特的图像生成控制方式。
 *   **节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
 
 <hr />
