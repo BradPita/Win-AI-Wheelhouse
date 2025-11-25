@@ -4,7 +4,7 @@
 <div align="center">
   <h1 align="center">Windows AI Wheelhouse</h1>
 
-<img src="https://github.com/BradPita/images/blob/main/WinAiWheelhouse.png" alt=">Windows AI Wheelhouse logo">
+<img src="https://github.com/user-attachments/assets/3d63f337-b913-4246-9bd0-d0bfc1c871e2" alt="Windows AI Wheelhouse logo">
 
   <p align="center">
     面向 Windows 平台的 AI 预编译 Python 轮子合集
@@ -20,48 +20,80 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>目录</summary>
+  <summary><strong>📑 目录</strong></summary>
   <ol>
-    <li><a href="#关于项目">关于项目</a></li>
+    <li><a href="#-项目愿景">项目愿景</a></li>
+    <li><a href="#-致敬与启发">致敬与启发</a></li>
     <li>
-      <a href="#快速开始">使用指南</a>
+      <a href="#-快速开始">快速开始</a>
       <ul>
         <li><a href="#环境准备">环境准备</a></li>
         <li><a href="#安装示例">安装示例</a></li>
       </ul>
     </li>
-    <li><a href="#可用轮子">可用轮子</a>
+    <li><a href="#-cxx11-abi-说明">CXX11 ABI 说明</a></li>
+    <li><a href="#-可用轮子">可用轮子</a>
       <ul>
         <li><a href="#pytorch">PyTorch</a></li>
-        <li><a href="#flash-attention">Flash Attention</a></li>
-        <li><a href="#xformers">xformers</a></li>
-        <li><a href="#sageattention">SageAttention</a></li>
-        <li><a href="#natten">NATTEN</a></li>
-        <li><a href="#tritonwindows-fork">Triton（Windows Fork）</a></li>
-        <li><a href="#bitsandbytes">bitsandbytes</a></li>
-        <li><a href="#radialattention-for-comfyui">RadialAttention</a></li>
+        <li><a href="#torchaudio">Torchaudio</a></li>
+        <li><a href="#️-flash-attention">Flash Attention</a></li>
+        <li><a href="#️-xformers">xformers</a></li>
+        <li><a href="#️-sageattention">SageAttention</a></li>
+        <li><a href="#️-sageattention-22-sageattention2">SageAttention 2.2</a></li>
+        <li><a href="#️-spargeattn">SpargeAttn</a></li>
+        <li><a href="#️-nunchaku">Nunchaku</a></li>
+        <li><a href="#️-natten">NATTEN</a></li>
+        <li><a href="#️-tritonwindows-fork">Triton</a></li>
+        <li><a href="#️-bitsandbytes">bitsandbytes</a></li>
+        <li><a href="#️-radialattention-for-comfyui">RadialAttention</a></li>
       </ul>
     </li>
+    <li><a href="#-贡献-contributing">贡献</a></li>
+    <li><a href="#-致谢-acknowledgments">致谢</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-<a id="项目愿景"></a>
-## 项目愿景
+<a id="-项目愿景"></a>
+## 🟦 项目愿景
 
 在 Windows 平台上，AI 爱好者常常面临一个共同的挑战：**那些如 `flash-attention`、`xformers` 等高性能的 Python 库，往往缺乏官方提供的 Windows 预编译 `.whl` 包。** 这使得从源码构建成为一个耗时且易错的过程，阻碍了许多创新想法的迅速实现。
 
 **`Win-AI-Wheelhouse`** 致力于解决这一痛点。我们希望建立一个**集中、持续更新的 `.whl` 文件直链清单**，让 Windows 上的 PyTorch 用户（尤其是 **ComfyUI 社区**的成员）能够告别繁琐的编译流程，将宝贵的时间投入到 AI 创作与探索之中。
 
-## 致敬与启发
+<a id="-致敬与启发"></a>
+## 🟦 致敬与启发
 
 本项目深受 wildminder 的 [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
 
+### 关于本项目
+
+本项目作为一个**学习和实践的项目**，在延续 wildminder 优秀理念的基础上，尝试通过以下方式提供一些补充：
+
+- 🤖 **自动化更新**：通过 GitHub Actions 定期自动抓取和更新 wheel 链接
+- 📊 **多源聚合**：整合来自不同社区贡献者的预编译资源
+- 📖 **结构化呈现**：按版本和依赖关系分类展示，便于查找
+- 🔍 **智能解析**：自动识别版本号、CXX11 ABI 等元数据
+
+这些尝试完全出于个人学习目的，也希望能够为社区提供一个不同角度的资讯汇整。我们深知自己的不足，也非常感谢前辈们铺就的道路。如果本项目能为更多 Windows AI 爱好者节省一点时间，让大家能够更专注于创作和探索，那就是我们最大的荣幸。
+
+特别感谢 [Eddy](https://github.com/eddyhhlure1) 孜孜不倦的精神和无私的指导。从接触他的 [Palingenesis 模型](https://huggingface.co/eddy1111111/WAN22.XX_Palingenesis)开始，他的热情和耐心让我能够从零基础开始尝试撰写代码。
+
+### 我的第一个 AIGC 作品
+使用 Eddy 的 Palingenesis 模型创作的 MV：
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=WdxTmXfplho">
+    <img src="https://img.youtube.com/vi/WdxTmXfplho/maxresdefault.jpg" alt="My First AIGC MV" style="width:80%; max-width:720px;">
+  </a>
+  <p><em>点击图片观看视频</em></p>
+</div>
+
 <!-- GETTING STARTED -->
-<a id="快速开始"></a>
-## 快速开始
+<a id="-快速开始"></a>
+## 🟦 快速开始
 
 按照以下步骤即可使用仓库中的 wheel：
 
@@ -86,21 +118,61 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
+<!-- CXX11 ABI GUIDE -->
+<a id="-cxx11-abi-说明"></a>
+## 🟦 CXX11 ABI 说明
+
+部分表格包含 **CXX11 ABI** 列，这是 C++ 编译器的两种不兼容模式：
+
+- **`—`**（或未标注）：Pre-CXX11 ABI（旧版，大多数 Windows 用户应选择此版本）
+- **`TRUE`**：CXX11 ABI（新版）
+- **`FALSE`**：明确标注为 Pre-CXX11 ABI
+
+> [!IMPORTANT]
+> **PyTorch 和扩展库的 CXX11 ABI 必须一致**，否则会导致崩溃或链接错误。
+
+### 如何检测你的 PyTorch 使用哪种 ABI？
+
+运行以下 Python 代码：
+
+```python
+import torch
+print(f"PyTorch 版本: {torch.__version__}")
+print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
+```
+
+**结果解读**：
+- **输出 `0` 或 `False`** → 使用 Pre-CXX11 ABI，选择 CXX11 ABI 列为 `—` 或 `FALSE` 的 wheel
+- **输出 `1` 或 `True`** → 使用 CXX11 ABI，选择 CXX11 ABI 列为 `TRUE` 的 wheel
+
+### 快速选择指南
+
+**对于大多数 Windows 用户**（使用 PyTorch 官方版本）：
+
+1. ✅ **优先选择** CXX11 ABI 列显示为 `—` 的 wheel（最兼容）
+2. ✅ **次选** CXX11 ABI 列显示为 `FALSE` 的 wheel（明确兼容）
+3. ⚠️ **仅在确认后选择** CXX11 ABI 列显示为 `TRUE` 的 wheel
+
+> [!TIP]
+> 如果不确定，优先选择未标注 CXX11 ABI（显示 `—`）的版本，这些版本通常与官方 PyTorch 兼容。
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 <!-- AVAILABLE WHEELS -->
-<a id="可用轮子"></a>
-## 可用轮子
+<a id="-可用轮子"></a>
+## 🟦 可用轮子
 
-以下是当前收录的包。
+以下是当前收录的轮子
 
-### PyTorch
+<a id="pytorch"></a>
+### ⚙️ PyTorch
 万物根基，优先走官方通道安装。
 *   **官方安装页面**： [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
 为了方便，在 Linux/WSL（NVIDIA GPU）环境下列出常用命令；其他配置（CPU、macOS、ROCm）请参考官网指引。
 
 #### 稳定版（2.9.1）
-多数用户推荐使用该版本。
+多数用户推荐使用该版本
 
 | CUDA Version | Pip Install Command                                                                                      |
 |:-------------|:---------------------------------------------------------------------------------------------------------|
@@ -138,21 +210,34 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 | **CUDA 12.8**  | `pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128` |
 | **CUDA 12.6**  | `pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu126` |
 
-**Torchaudio**
+<a id="torchaudio"></a>
+### ⚙️ Torchaudio
+在某些设备上增加 NN 加速。
+*   **官方仓库**： [https://github.com/pytorch/audio](https://github.com/pytorch/audio)
+*   **预编译来源**： [Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
+
+<details>
+  <summary>展开已收录的 Torchaudio</summary>
+
 <!-- START_TORCHAUDIO_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | CXX11 ABI | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | `2.8.0a0` | `2.10.0` | `3.13` | `13.0` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/torchaudio-2.8.0a0%2Bcu130torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl?download=true) |
 | `2.8.0a0` | `2.9.0` | `3.12` | `12.8` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/torchaudio-2.8.0a0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl?download=true) |
 <!-- END_TORCHAUDIO_TABLE -->
+</details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<hr />
 
-****
-
-### Flash Attention
+<a id="️-flash-attention"></a>
+### ⚙️ Flash Attention
 高性能注意力实现。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
 *   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[mjun0812 GitHub](https://github.com/mjun0812/flash-attention-prebuild-wheels)
 
+<details>
+  <summary>展开已收录的 Flash Attention</summary>
+  
 <!-- START_FLASHATTENTION_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | CXX11 ABI | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -338,10 +423,12 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 | `2.8.3` | `2.9.1` | `3.13` | `12.8` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/flash_attn-2.8.3%2Bcu128torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl?download=true) |
 | `2.8.3` | `2.9.1` | `3.13` | `13.0` | ✓ | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl?download=true) |
 <!-- END_FLASHATTENTION_TABLE -->
-  
-****
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-### xformers
+<a id="️-xformers"></a>
+### ⚙️ xformers
 内存友好的注意力及优化组件库。
 *   **官方仓库**： [facebookresearch/xformers](https://github.com/facebookresearch/xformers/releases)
 *   **PyTorch 官方索引**： [https://download.pytorch.org/whl/xformers/](https://download.pytorch.org/whl/xformers/)
@@ -349,6 +436,9 @@ pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/
 > 安装 PyTorch 后通常可以直接 `pip install xformers`。若失败，可在上述索引寻找与环境匹配的 wheel。
 
 ABI3 版本可兼容 Python 3.9-3.12。
+
+<details>
+  <summary>展开已收录的 xformers</summary>
 
 <!-- START_XFORMERS_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
@@ -505,12 +595,17 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.33` | `2.9+` | `3.9` | `13.0` | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `2.9+` | `3.9` | `13.0` | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
 <!-- END_XFORMERS_TABLE --> 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-****
-
-### SageAttention
+<a id="️-sageattention"></a>
+### ⚙️ SageAttention
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
 *   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SageAttention/releases)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
+
+<details>
+  <summary>展开已收录的 SageAttention</summary>
 
 <!-- START_SAGEATTENTION2_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
@@ -540,12 +635,17 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.1.1` | `2.8.0` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.1.1` | `2.8.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp39-cp39-win_amd64.whl) |
 <!-- END_SAGEATTENTION2_TABLE -->
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-***
-
-#### SageAttention 2.2 (SageAttention2++)
+<a id="️-sageattention-22-sageattention2"></a>
+### ⚙️ SageAttention 2.2 (SageAttention2++)
 > [!NOTE]
 > 仅支持 CUDA ≥ 12.8，因此需搭配 PyTorch ≥ 2.7。
+
+<details>
+  <summary>展开已收录的 SageAttention 2++</summary>
 
 <!-- START_SAGEATTENTION22_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
@@ -587,12 +687,18 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `2.2.0.post4` | `2.9.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu128torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post4` | `2.9.0` | `3.9` | `13.0` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu130torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-****
-
-## SpargeAttn  
+<a id="️-spargeattn"></a>
+### ⚙️ SpargeAttn  
 *   **官方仓库**： [thu-ml/SpargeAttn](https://github.com/thu-ml/SpargeAttn)
 *   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SpargeAttn/releases)
+
+<details>
+  <summary>展开已收录的 SpargeAttn</summary>
+  
 <!-- START_SPARGEATTN_TABLE -->
 | Package Version | PyTorch Ver | CUDA Ver | Download Link |
 |:---:|:---:|:---:|:---:|
@@ -614,11 +720,17 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.1.0.post3` | `2.9.0` | `12.8` | [Link](https://github.com/woct0rdho/SpargeAttn/releases/download/v0.1.0-windows.post3/spas_sage_attn-0.1.0%2Bcu128torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
 | `0.1.0.post3` | `2.9.0` | `13.0` | [Link](https://github.com/woct0rdho/SpargeAttn/releases/download/v0.1.0-windows.post3/spas_sage_attn-0.1.0%2Bcu130torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
 <!-- END_SPARGEATTN_TABLE -->
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-****
-
-### Nunchaku
+<a id="️-nunchaku"></a>
+### ⚙️ Nunchaku
 *   **官方仓库**： [mit-han-lab/nunchaku](https://github.com/mit-han-lab/nunchaku/releases)
+
+<details>
+  <summary>展开已收录的 Nunchaku</summary>
+
 <!-- START_NUNCHAKU_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | Download Link |
 |:---:|:---:|:---:|:---:|
@@ -924,13 +1036,18 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `1.1.0.dev20251111` | `2.9` | `3.12` | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.1.0dev20251111/nunchaku-1.1.0.dev20251111%2Btorch2.9-cp312-cp312-win_amd64.whl) |
 | `1.1.0.dev20251111` | `2.9` | `3.13` | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.1.0dev20251111/nunchaku-1.1.0.dev20251111%2Btorch2.9-cp313-cp313-win_amd64.whl) |
 <!-- END_NUNCHAKU_TABLE -->
-  
-****
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-### NATTEN
+<a id="️-natten"></a>
+### ⚙️ NATTEN
 Neighborhood Attention Transformer。
 *   **官方仓库**： [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN)
 *   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/NATTEN-windows/tree/main)
+
+<details>
+  <summary>展开已收录的 NATTEN</summary>
 
 <!-- START_NATTEN_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
@@ -954,52 +1071,46 @@ Neighborhood Attention Transformer。
 | `0.17.5` | `2.7.0` | `3.11` | `12.8` | [Link](https://huggingface.co/lldacing/NATTEN-windows/resolve/main/natten-0.17.5%2Btorch270cu128-cp311-cp311-win_amd64.whl?download=true) |
 | `0.17.5` | `2.7.0` | `3.12` | `12.8` | [Link](https://huggingface.co/lldacing/NATTEN-windows/resolve/main/natten-0.17.5%2Btorch270cu128-cp312-cp312-win_amd64.whl?download=true) |
 <!-- END_NATTEN_TABLE -->
-****
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+</details>
+<hr />
 
-<a id="tritonwindows-fork"></a>
-### Triton（Windows Fork）
+<a id="️-tritonwindows-fork"></a>
+### ⚙️ Triton（Windows Fork）
 Triton 是用于编写高效深度学习算子的语言与编译器，官方暂不支持 Windows，可依赖社区 fork 的预编译包。
 *   **Windows Fork**： [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows/releases)
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
-****
-
-### bitsandbytes
+<a id="️-bitsandbytes"></a>
+### ⚙️ bitsandbytes
 围绕 CUDA 自定义算子的轻量封装，提供 8-bit 优化器、矩阵乘（LLM.int8()）与量化能力。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
 
-****
-
-### RadialAttention for ComfyUI
+<a id="️-radialattention-for-comfyui"></a>
+### ⚙️ RadialAttention for ComfyUI
 *   **节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
-
-****
+<hr />
 
 <!-- CONTRIBUTING -->
-## 贡献 (Contributing)
+<a id="-贡献-contributing"></a>
+## 🟦 贡献 (Contributing)
 
 贡献让开源社区成为一个令人惊叹的学习、启发和创造的地方。我们**非常感激**您做出的任何贡献。
 
 如果您发现了新的预编译 wheel 文件或可靠的来源，请 pull request，或者直接开一个 issue 附上链接。
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
-## 致谢 (Acknowledgments)
+<a id="-致谢-acknowledgments"></a>
+## 🟦 致谢 (Acknowledgments)
 
-本仓库仅仅是一个链接集合。衷心感谢那些为社区辛勤构建和托管这些 wheel 文件的个人和团队：
+本仓库仅仅是一个链接集合。衷心感谢那些为社区辛勤构建和托管这些 wheel 文件的个人和团队。
 
-
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/YOUR_USERNAME/Windows-AI-Wheels.svg?style=for-the-badge
-[contributors-url]: https://github.com/YOUR_USERNAME/Windows-AI-Wheels/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/YOUR_USERNAME/Windows-AI-Wheels.svg?style=for-the-badge
-[forks-url]: https://github.com/YOUR_USERNAME/Windows-AI-Wheels/network/members
-[stars-shield]: https://img.shields.io/github/stars/YOUR_USERNAME/Windows-AI-Wheels.svg?style=for-the-badge
-[stars-url]: https://github.com/YOUR_USERNAME/Windows-AI-Wheels/stargazers
-[issues-shield]: https://img.shields.io/github/issues/YOUR_USERNAME/Windows-AI-Wheels.svg?style=for-the-badge
 
-[issues-url]: https://github.com/YOUR_USERNAME/Windows-AI-Wheels/issues
+
+
+
+
+
