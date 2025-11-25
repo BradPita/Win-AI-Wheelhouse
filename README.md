@@ -73,7 +73,7 @@
 
 本项目深受 wildminder [AI-windows-whl](https://github.com/wildminder/AI-windows-whl) 项目的启发，我们旨在延续其精神，为更广泛的 Windows AI 社区提供稳定可靠的预编译资源。
 
-特别感谢 [Eddy](https://github.com/eddyhhlure1) 孜孜不倦的精神和无私的指导。从接触他的 [Palingenesis 模型](https://huggingface.co/eddy1111111/WAN22.XX_Palingenesis) 开始，是他的热情感召，让我这样一个影视从业者，能够开始尝试撰写自己需要的代码。
+特别感谢 [Eddy](https://github.com/eddyhhlure1Eddy) 孜孜不倦的精神和无私的指导。从接触他的 [Palingenesis 模型](https://huggingface.co/eddy1111111/WAN22.XX_Palingenesis) 开始，是他的热情感召，让我这样一个影视从业者，能够开始尝试撰写自己需要的代码。
 
 ### 我的 Palingenesis AIGC 作品
 使用 Eddy 的 Palingenesis 模型创作的 MV：
