@@ -204,6 +204,8 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 | **CUDA 12.8**  | `pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128` |
 | **CUDA 12.6**  | `pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu126` |
 
+<hr />
+
 <a id="torchaudio"></a>
 ### ⚙️ Torchaudio
 PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功能。
@@ -1084,10 +1086,14 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 *   **Windows Fork**： [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows/releases)
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
+<hr />
+
 <a id="️-bitsandbytes"></a>
 ### ⚙️ bitsandbytes
 轻量级 CUDA 算子库，提供 8-bit 优化器和 LLM 量化支持，大幅降低显存需求。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
+
+<hr />
 
 <a id="️-radialattention-for-comfyui"></a>
 ### ⚙️ RadialAttention for ComfyUI
