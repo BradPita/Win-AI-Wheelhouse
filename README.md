@@ -728,6 +728,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 <!-- START_SAGEATTENTION3_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| `1.0.0` | `2.8.0` | `3.11` | `12.8` | sdbds Releases | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/SA3-1.0.0/sageattn3-1.0.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 <!-- END_SAGEATTENTION3_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -1122,7 +1123,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <a id="️-tritonwindows-fork"></a>
 ### ⚙️ Triton（Windows Fork）
 用于编写高效深度学习算子的语言与编译器，官方不支持 Windows，这是社区维护的 Fork 版本。
-*   **Windows Fork**： <!-- START_TRITON_SOURCES --><!-- END_TRITON_SOURCES -->
+*   **Windows Fork**： <!-- START_TRITON_SOURCES -->[woct0rdho](https://github.com/woct0rdho/triton-windows/releases)、[Comfy-Org](https://github.com/Comfy-Org/wheels/releases)<!-- END_TRITON_SOURCES -->
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
 <details>
@@ -1155,7 +1156,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ bitsandbytes
 轻量级 CUDA 算子库，提供 8-bit 优化器和 LLM 量化支持，大幅降低显存需求。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
-*   **预编译来源**： <!-- START_BITSANDBYTES_SOURCES --><!-- END_BITSANDBYTES_SOURCES -->
+*   **预编译来源**： <!-- START_BITSANDBYTES_SOURCES -->[jllllll](https://github.com/jllllll/bitsandbytes-windows-webui/releases)、[bitsandbytes-foundation](https://github.com/bitsandbytes-foundation/bitsandbytes/releases)<!-- END_BITSANDBYTES_SOURCES -->
 
 <details>
   <summary>展开已收录的 bitsandbytes</summary>
@@ -1190,7 +1191,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ RadialAttention
 用于长视频生成的径向注意力机制，在保持质量的同时大幅减少内存占用。
 *   **官方仓库**： [mit-han-lab/radial-attention](https://github.com/mit-han-lab/radial-attention)
-*   **预编译来源**： <!-- START_RADIALATTENTION_SOURCES --><!-- END_RADIALATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_RADIALATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_RADIALATTENTION_SOURCES -->
 *   **ComfyUI 节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
 
 <details>
