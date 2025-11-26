@@ -1189,20 +1189,16 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <hr />
 
 <a id="️-radialattention-for-comfyui"></a>
-### ⚙️ RadialAttention
+### ⚙️ RadialAttention（ComfyUI 节点）
 用于长视频生成的径向注意力机制，在保持质量的同时大幅减少内存占用。
 *   **官方仓库**： [mit-han-lab/radial-attention](https://github.com/mit-han-lab/radial-attention)
-*   **预编译来源**： <!-- START_RADIALATTENTION_SOURCES --><!-- END_RADIALATTENTION_SOURCES -->
 *   **ComfyUI 节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
 
-<details>
-  <summary>展开已收录的 RadialAttention</summary>
-
-<!-- START_RADIALATTENTION_TABLE -->
-| Package Version | PyTorch Ver | Python Ver | CUDA Ver | Source | Download Link |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-<!-- END_RADIALATTENTION_TABLE -->
-</details>
+> **💡 安装说明**：  
+> RadialAttention 不是独立的 wheel 包，而是通过 ComfyUI 自定义节点使用。安装步骤：
+> 1. 先安装 [SpargeAttn](#️-spargeattn)（见上方，我们已收录其 Windows wheels）
+> 2. 将 [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn) clone 到 `ComfyUI/custom_nodes/` 目录
+> 3. （可选）安装 [SageAttention](#️-sageattention) 并使用 `--use-sage-attention` 参数启动 ComfyUI，作为备用加速方案
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
