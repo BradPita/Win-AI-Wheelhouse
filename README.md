@@ -10,9 +10,6 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <a href="https://github.com/BradPita/Win-AI-Wheelhouse/issues/new?labels=bug&template=bug-report---.md">报告失效链接</a>
-    ·
-    <a href="https://github.com/BradPita/Win-AI-Wheelhouse/issues/new?labels=enhancement&template=feature-request---.md">请求新增轮子</a>
   </p>
 </div>
 
@@ -605,7 +602,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention
 精准且高效的注意力机制，通过平滑量化大幅降低显存占用，同时保持精度。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SageAttention/releases)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
+*   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SageAttention/releases)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[sdbds 发布页](https://github.com/sdbds/SageAttention-for-windows/releases)
 
 <details>
   <summary>展开已收录的 SageAttention</summary>
@@ -613,22 +610,23 @@ ABI3 版本可兼容 Python 3.9-3.12。
 <!-- START_SAGEATTENTION2_TABLE -->
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
 |:---:|:---:|:---:|:---:|:---:|
-| `2.1.1` | `2.5.1` | `3.10` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp310-cp310-win_amd64.whl) |
+| `2.0.1` | `2.5.1` | `3.10` | `12.4` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.0.1_20250102/sageattention-2.0.1%2Bcu124torch2.5.1-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `2.5.1` | `3.10` | `12.4` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.1.1/sageattention-2.1.1%2Bcu124torch2.5.1-cp310-cp310-win_amd64.whl) |
 | `2.1.1` | `2.5.1` | `3.11` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp311-cp311-win_amd64.whl) |
 | `2.1.1` | `2.5.1` | `3.12` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp312-cp312-win_amd64.whl) |
 | `2.1.1` | `2.5.1` | `3.9` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp39-cp39-win_amd64.whl) |
 | `2.1.1` | `2.6.0` | `3.10` | `12.6` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp310-cp310-win_amd64.whl) |
-| `2.1.1` | `2.6.0` | `3.11` | `12.6` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `2.6.0` | `3.11` | `12.6` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.11_torch2.6.0%2Bcu126/sageattention-2.1.1%2Bcu126torch2.6.0-cp311-cp311-win_amd64.whl) |
 | `2.1.1` | `2.6.0` | `3.12` | `12.6` | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/sageattention-2.1.1%2Bcu126torch2.6.0-cp312-cp312-win_amd64.whl?download=true) |
 | `2.1.1` | `2.6.0` | `3.13` | `12.6` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp313-cp313-win_amd64.whl) |
 | `2.1.1` | `2.6.0` | `3.9` | `12.6` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp39-cp39-win_amd64.whl) |
-| `2.1.1` | `2.7.0` | `3.10` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp310-cp310-win_amd64.whl) |
-| `2.1.1` | `2.7.0` | `3.11` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `2.7.0` | `3.10` | `12.8` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.11_torch270%2Bcu128/sageattention-2.1.1%2Bcu128torch2.7.0-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `2.7.0` | `3.11` | `12.8` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.11_torch270%2Bcu128/sageattention-2.1.1%2Bcu128torch2.7.0-cp311-cp311-win_amd64.whl) |
 | `2.1.1` | `2.7.0` | `3.12` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp312-cp312-win_amd64.whl) |
 | `2.1.1` | `2.7.0` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp313-cp313-win_amd64.whl) |
 | `2.1.1` | `2.7.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp39-cp39-win_amd64.whl) |
 | `2.1.1` | `2.7.1` | `3.10` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp310-cp310-win_amd64.whl) |
-| `2.1.1` | `2.7.1` | `3.11` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `2.7.1` | `3.11` | `12.8` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.11_torch271%2Bcu128/sageattention-2.1.1%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
 | `2.1.1` | `2.7.1` | `3.12` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.1.1` | `2.7.1` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp313-cp313-win_amd64.whl) |
 | `2.1.1` | `2.7.1` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp39-cp39-win_amd64.whl) |
@@ -655,16 +653,18 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | Package Version | PyTorch Ver | Python Ver | CUDA Ver | Download Link |
 |:---:|:---:|:---:|:---:|:---:|
 | `2.2.0` | `2.7.1` | `3.10` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp310-cp310-win_amd64.whl) |
-| `2.2.0` | `2.7.1` | `3.11` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `2.7.1` | `3.11` | `12.8` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.20_torch271%2Bcu128/sageattention-2.2.0%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `2.7.1` | `3.12` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `2.7.1` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp313-cp313-win_amd64.whl) |
 | `2.2.0` | `2.7.1` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp39-cp39-win_amd64.whl) |
 | `2.2.0` | `2.8.0` | `3.10` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp310-cp310-win_amd64.whl) |
-| `2.2.0` | `2.8.0` | `3.11` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `2.8.0` | `3.11` | `12.8` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.20_torch280%2Bcu128/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `2.8.0` | `3.12` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `2.8.0` | `3.13` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0` | `2.8.0` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp39-cp39-win_amd64.whl) |
+| `2.2.0` | `2.9.0` | `3.11` | `13.0` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch290%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `2.9.0` | `3.12` | `12.8` | [Link](https://huggingface.co/Wildminder/AI-windows-whl/resolve/main/sageattention-2.2.0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl?download=true) |
+| `2.2.0` | `2.9.1` | `3.11` | `13.0` | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch291%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.1-cp311-cp311-win_amd64.whl) |
 | `2.2.0.post1` | `2.5.1` | `3.9` | `12.4` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu124torch2.5.1.post1-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post1` | `2.6.0` | `3.9` | `12.6` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu126torch2.6.0.post1-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post1` | `2.7.1` | `3.9` | `12.8` | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu128torch2.7.1.post1-cp39-abi3-win_amd64.whl) |
@@ -697,12 +697,12 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 
 <a id="️-sageattention3"></a>
 ### ⚙️ SageAttention 3
-用于推理的微缩放 FP4 注意力机制 和 8 位训练的探索，目前仅支持 Blackwell 架构。注意:SageAttention3 不保證所有型號的無損加速。對於其他影片產生模型,我們建議在某些圖層或時間步長中選擇性地使用 SageAttention2++
-*   **官方仓库**： [thu-ml/SageAttention3_BlackWell](https://github.com/thu-ml/SageAttention/tree/main/sageattention3_blackwell)
-*   **预编译来源**： [sdbds 发布页](https://github.com/sdbds/SageAttention-for-windows/releases)
+用于推理的微缩放 FP4 注意力机制 和 8 位训练的探索，目前仅支持 Blackwell 架构。
+> [!NOTE]
+> SageAttention3 不保證所有型號的無損加速。對於其他影片產生模型,我們建議在某些圖層或時間步長中選擇性地使用 SageAttention2++
 
 <details>
-  <summary>展开已收录的 SageAttention</summary>
+  <summary>展开已收录的 SageAttention 3</summary>
 
 <!-- START_SAGEATTENTION3_TABLE -->
 <!-- END_SAGEATTENTION3_TABLE -->
@@ -1134,6 +1134,8 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
+
+
 
 
 
