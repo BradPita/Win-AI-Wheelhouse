@@ -407,6 +407,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `2.8` | `3.13` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu124torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `2.8` | `3.13` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu126torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `2.8.0` | `3.12` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `2.8.0` | `3.13` | `12.8` | ✓ | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3%2Bcu128torch2.8.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `2.9` | `3.10` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu124torch2.9-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `2.9` | `3.10` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu126torch2.9-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `2.9` | `3.11` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.15/flash_attn-2.8.3%2Bcu126torch2.9-cp311-cp311-win_amd64.whl) |
@@ -424,7 +425,6 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `2.9.1` | `3.12` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `2.9.1` | `3.13` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `2.9.1` | `3.13` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
-| `2.8.3` | — | `3.13` | — | — | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3-cp313-cp313-win_amd64.whl) |
 <!-- END_FLASHATTENTION_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
