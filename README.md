@@ -40,6 +40,7 @@
         <li><a href="#️-xformers">xformers</a></li>
         <li><a href="#️-sageattention">SageAttention</a></li>
         <li><a href="#️-sageattention-22-sageattention2">SageAttention 2.2</a></li>
+        <li><a href="#️-sageattention3">SageAttention 3</a></li>        
         <li><a href="#️-spargeattn">SpargeAttn</a></li>
         <li><a href="#️-nunchaku">Nunchaku</a></li>
         <li><a href="#️-natten">NATTEN</a></li>
@@ -694,6 +695,21 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
+<a id="️-sageattention3"></a>
+### ⚙️ SageAttention 3
+用于推理的微缩放 FP4 注意力机制 和 8 位训练的探索，目前仅支持 Blackwell 架构。注意:SageAttention3 不保證所有型號的無損加速。對於其他影片產生模型,我們建議在某些圖層或時間步長中選擇性地使用 SageAttention2++
+*   **官方仓库**： [thu-ml/SageAttention3_BlackWell](https://github.com/thu-ml/SageAttention/tree/main/sageattention3_blackwell)
+*   **预编译来源**： [sdbds 发布页](https://github.com/sdbds/SageAttention-for-windows/releases)
+
+<details>
+  <summary>展开已收录的 SageAttention</summary>
+
+<!-- START_SAGEATTENTION3_TABLE -->
+<!-- END_SAGEATTENTION3_TABLE -->
+</details>
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<hr />
+
 <a id="️-spargeattn"></a>
 ### ⚙️ SpargeAttn
 稀疏注意力机制，通过智能跳过不重要的计算来加速推理，适用于长上下文场景。
@@ -1118,6 +1134,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
+
 
 
 
