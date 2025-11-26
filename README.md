@@ -208,7 +208,7 @@ print(f"CXX11 ABI: {torch._C._GLIBCXX_USE_CXX11_ABI}")
 ### ⚙️ Torchaudio
 PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功能。
 *   **官方仓库**： [https://github.com/pytorch/audio](https://github.com/pytorch/audio)
-*   **预编译来源**： [Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)
+*   **预编译来源**： <!-- START_TORCHAUDIO_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_TORCHAUDIO_SOURCES -->
 
 <details>
   <summary>展开已收录的 Torchaudio</summary>
@@ -227,7 +227,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 ### ⚙️ Flash Attention
 高性能注意力机制的先驱实现，通过分块计算和重计算策略大幅降低显存并提速。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
-*   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[mjun0812 GitHub](https://github.com/mjun0812/flash-attention-prebuild-wheels)
+*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[marcorez8](https://huggingface.co/marcorez8/flash-attn-windows-blackwell/tree/main)、[dicksondickson](https://github.com/dicksondickson/flash-attention-wheel/releases)、[sunsetcoder](https://github.com/sunsetcoder/flash-attention-windows/releases)<!-- END_FLASHATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 Flash Attention</summary>
@@ -623,7 +623,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention
 精准且高效的注意力机制，通过平滑量化大幅降低显存占用，同时保持精度。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SageAttention/releases)、[Wildminder 的 HF](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[sdbds 发布页](https://github.com/sdbds/SageAttention-for-windows/releases)
+*   **预编译来源**： <!-- START_SAGEATTENTION2_SOURCES --><!-- END_SAGEATTENTION2_SOURCES -->
 
 <details>
   <summary>展开已收录的 SageAttention</summary>
@@ -738,7 +738,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 ### ⚙️ SpargeAttn
 稀疏注意力机制，通过智能跳过不重要的计算来加速推理，适用于长上下文场景。
 *   **官方仓库**： [thu-ml/SpargeAttn](https://github.com/thu-ml/SpargeAttn)
-*   **预编译来源**： [woct0rdho 发布页](https://github.com/woct0rdho/SpargeAttn/releases)
+*   **预编译来源**： <!-- START_SPARGEATTN_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SpargeAttn/releases)<!-- END_SPARGEATTN_SOURCES -->
 
 <details>
   <summary>展开已收录的 SpargeAttn</summary>
@@ -772,6 +772,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 ### ⚙️ Nunchaku
 MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐量。
 *   **官方仓库**： [mit-han-lab/nunchaku](https://github.com/mit-han-lab/nunchaku/releases)
+*   **预编译来源**： <!-- START_NUNCHAKU_SOURCES -->[nunchaku-tech](https://github.com/nunchaku-tech/nunchaku/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_NUNCHAKU_SOURCES -->
 
 <details>
   <summary>展开已收录的 Nunchaku</summary>
@@ -1089,7 +1090,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ NATTEN (Neighborhood Attention Transformer)
 局部邻域注意力实现，在视觉任务中表现出色。
 *   **官方仓库**： [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN)
-*   **预编译来源**： [lldacing 的 HF](https://huggingface.co/lldacing/NATTEN-windows/tree/main)
+*   **预编译来源**： <!-- START_NATTEN_SOURCES -->[lldacing](https://huggingface.co/lldacing/NATTEN-windows/tree/main)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_NATTEN_SOURCES -->
 
 <details>
   <summary>展开已收录的 NATTEN</summary>
