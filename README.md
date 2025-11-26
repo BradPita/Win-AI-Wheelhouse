@@ -227,7 +227,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 ### ⚙️ Flash Attention
 高性能注意力机制的先驱实现，通过分块计算和重计算策略大幅降低显存并提速。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
-*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[marcorez8](https://huggingface.co/marcorez8/flash-attn-windows-blackwell/tree/main)、[dicksondickson](https://github.com/dicksondickson/flash-attention-wheel/releases)、[sunsetcoder](https://github.com/sunsetcoder/flash-attention-windows/releases)<!-- END_FLASHATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[dicksondickson](https://github.com/dicksondickson/flash-attention-wheel/releases)<!-- END_FLASHATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 Flash Attention</summary>
@@ -623,7 +623,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention
 精准且高效的注意力机制，通过平滑量化大幅降低显存占用，同时保持精度。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： <!-- START_SAGEATTENTION_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_SAGEATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)<!-- END_SAGEATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 SageAttention</summary>
@@ -1090,7 +1090,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ NATTEN (Neighborhood Attention Transformer)
 局部邻域注意力实现，在视觉任务中表现出色。
 *   **官方仓库**： [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN)
-*   **预编译来源**： <!-- START_NATTEN_SOURCES -->[lldacing](https://huggingface.co/lldacing/NATTEN-windows/tree/main)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_NATTEN_SOURCES -->
+*   **预编译来源**： <!-- START_NATTEN_SOURCES -->[lldacing](https://huggingface.co/lldacing/NATTEN-windows/tree/main)<!-- END_NATTEN_SOURCES -->
 
 <details>
   <summary>展开已收录的 NATTEN</summary>
@@ -1124,7 +1124,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <a id="️-tritonwindows-fork"></a>
 ### ⚙️ Triton（Windows Fork）
 用于编写高效深度学习算子的语言与编译器，官方不支持 Windows，这是社区维护的 Fork 版本。
-*   **Windows Fork**： <!-- START_TRITON_SOURCES -->[woct0rdho](https://github.com/woct0rdho/triton-windows/releases)、[Comfy-Org](https://github.com/Comfy-Org/wheels/releases)<!-- END_TRITON_SOURCES -->
+*   **Windows Fork**： <!-- START_TRITON_SOURCES -->[woct0rdho](https://github.com/woct0rdho/triton-windows/releases)<!-- END_TRITON_SOURCES -->
 *   **安装命令**： `pip install -U "triton-windows<3.6"`
 
 <details>
@@ -1192,7 +1192,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ RadialAttention
 用于长视频生成的径向注意力机制，在保持质量的同时大幅减少内存占用。
 *   **官方仓库**： [mit-han-lab/radial-attention](https://github.com/mit-han-lab/radial-attention)
-*   **预编译来源**： <!-- START_RADIALATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_RADIALATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_RADIALATTENTION_SOURCES --><!-- END_RADIALATTENTION_SOURCES -->
 *   **ComfyUI 节点**： [ComfyUI-RadialAttn](https://github.com/woct0rdho/ComfyUI-RadialAttn)
 
 <details>
