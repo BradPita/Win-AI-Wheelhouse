@@ -4,7 +4,7 @@
 <div align="center">
   <h1 align="center">Windows AI Wheelhouse</h1>
 
-<a href="https://github.com/BradPita/Win-AI-Wheelhouse"><img src="https://github.com/user-attachments/assets/3d63f337-b913-4246-9bd0-d0bfc1c871e2" alt="Windows AI Wheelhouse logo" border="0"></a>
+<img src="https://github.com/user-attachments/assets/3d63f337-b913-4246-9bd0-d0bfc1c871e2" alt="Windows AI Wheelhouse logo">
 
   <p align="center">
     面向 Windows 平台的 AI 预编译 Python 轮子合集
@@ -46,6 +46,7 @@
         <li><a href="#️-radialattention-for-comfyui">RadialAttention</a></li>
       </ul>
     </li>
+    <li><a href="#-手动添加轮子">手动添加轮子</a></li>
     <li><a href="#-贡献-contributing">贡献</a></li>
     <li><a href="#-致谢-acknowledgments">致谢</a></li>
   </ol>
@@ -663,7 +664,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention 2.2 (SageAttention2++)
 SageAttention 的升级版本，引入更先进的量化策略和优化算法，显存节省更多，速度更快。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_SAGEATTENTION22_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)<!-- END_SAGEATTENTION22_SOURCES -->
 > [!NOTE]
 > 仅支持 CUDA ≥ 12.8，因此需搭配 PyTorch ≥ 2.7。
 
@@ -697,6 +698,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch290%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch291%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.12` | `2.7.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
@@ -720,7 +722,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 ### ⚙️ SageAttention 3
 用于推理的微缩放 FP4 注意力机制 和 8 位训练的探索，目前仅支持 Blackwell 架构。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention/tree/main/sageattention3_blackwell)
-*   **预编译来源**： <!-- START_SAGEATTENTION3_SOURCES -->[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)<!-- END_SAGEATTENTION3_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION3_SOURCES -->[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)<!-- END_SAGEATTENTION3_SOURCES -->
 > [!NOTE]
 > SageAttention3 不保證所有型號的無損加速。對於其他影片產生模型,我們建議在某些圖層或時間步長中選擇性地使用 SageAttention2++
 
@@ -731,6 +733,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | `1.0.0` | `3.11` | `2.8.0` | `12.8` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/SA3-1.0.0/sageattn3-1.0.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
+| `1.0.0` | `3.12` | `2.8.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/resolve/main/sageattn3-1.0.0-cp312-cp312-win_amd64.whl) |
 <!-- END_SAGEATTENTION3_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -1204,6 +1207,67 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
+<!-- MANUAL WHEELS -->
+<a id="-手动添加轮子"></a>
+## 🟦 手动添加轮子
+
+如果您需要添加一些非标准命名或特殊来源的轮子（例如私有构建、自定义编译等），可以使用 `manual_wheels.json` 配置文件手动添加。
+
+> **⚠️ 重要**：系统**不会**自动解析版本号，所有版本信息必须手动提供。如果某个字段不提供，将显示为 `—`。
+
+### 快速使用
+
+1. **编辑 `manual_wheels.json` 文件**（项目根目录下已有示例）
+
+2. **添加您的轮子配置**：
+
+```json
+{
+  "packages": [
+    {
+      "id": "flashattention",
+      "wheels": [
+        {
+          "url": "https://example.com/your_custom_wheel.whl",
+          "source": "Custom Build",
+          "package_version": "2.0.0",
+          "python_version": "3.11",
+          "torch_version": "2.4.0",
+          "cuda_version": "12.1"
+        }
+      ]
+    }
+  ]
+}
+```
+
+3. **运行更新脚本**：
+
+```bash
+python scripts/update_wheels.py
+```
+
+手动添加的轮子会自动合并到 `wheels.json` 和 README 表格中。
+
+### 配置说明
+
+- **`id`**（必填）：包ID，必须匹配 `sources_config.json` 中的现有包ID
+- **`url`**（必填）：轮子的下载链接
+- **`package_version`**（必填）：包版本号，如 `"2.0.0"`
+- **其他字段**（可选）：如果不提供，将显示为 `—`
+  - `source`：来源名称（默认为 `"Manual"`）
+  - `python_version`：Python 版本，如 `"3.11"`
+  - `torch_version`：PyTorch 版本，如 `"2.4.0"`
+  - `cuda_version`：CUDA 版本，如 `"12.1"`
+  - `cxx11_abi`：CXX11 ABI 兼容性（`true`/`false`/`null`）
+
+### 更多信息
+
+详细使用指南和示例请参阅 **[MANUAL_WHEELS_GUIDE.md](MANUAL_WHEELS_GUIDE.md)**。
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<hr />
+
 <!-- CONTRIBUTING -->
 <a id="-贡献-contributing"></a>
 ## 🟦 贡献 (Contributing)
@@ -1220,7 +1284,6 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
-
 
 
 
