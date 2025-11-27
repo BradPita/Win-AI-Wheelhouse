@@ -4,7 +4,7 @@
 <div align="center">
   <h1 align="center">Windows AI Wheelhouse</h1>
 
-<img src="https://github.com/user-attachments/assets/3d63f337-b913-4246-9bd0-d0bfc1c871e2" alt="Windows AI Wheelhouse logo">
+<a href="https://github.com/BradPita/Win-AI-Wheelhouse"><img src="https://github.com/user-attachments/assets/3d63f337-b913-4246-9bd0-d0bfc1c871e2" alt="Windows AI Wheelhouse logo" border="0"></a>
 
   <p align="center">
     面向 Windows 平台的 AI 预编译 Python 轮子合集
@@ -1220,6 +1220,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
+
 
 
 
