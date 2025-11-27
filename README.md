@@ -674,6 +674,8 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 <!-- START_SAGEATTENTION22_TABLE -->
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| `1.0.0` | `3.12` | — | — | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattn3-1.0.0-cp312-cp312-win_amd64.whl) |
+| `2.2.0` | `3.9` | — | — | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp39-abi3-win_amd64_280313.whl) |
 | `2.2.0.post1` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu124torch2.5.1.post1-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post2` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0%2Bcu124torch2.5.1.post2-cp39-abi3-win_amd64.whl) |
 | `2.2.0.post3` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu124torch2.5.1.post3-cp39-abi3-win_amd64.whl) |
@@ -698,6 +700,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch290%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch291%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.12` | — | — | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
@@ -712,6 +715,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0.post3` | `3.13` | `2.9.0` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu130torch2.9.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.10.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.10.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.10.0` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu130torch2.10.0-cp313-cp313-win_amd64.whl) |
+| `2.2.1` | `3.13` | — | — | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.1-cp313-cp313-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -730,6 +734,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | `1.0.0` | `3.11` | `2.8.0` | `12.8` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/SA3-1.0.0/sageattn3-1.0.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
+| `1.0.0` | `3.12` | — | — | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattn3-1.0.0-cp312-cp312-win_amd64.whl) |
 <!-- END_SAGEATTENTION3_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
