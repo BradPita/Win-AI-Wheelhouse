@@ -228,7 +228,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 ### ⚙️ Flash Attention
 高性能注意力机制的先驱实现，通过分块计算和重计算策略大幅降低显存并提速。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
-*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[BradPita](https://huggingface.co/BradPita/Win-AI-Wheelhouse/tree/main)<!-- END_FLASHATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[BradPita](https://huggingface.co/BradPita/Win-AI-Wheelhouse/tree/main)、[Kijai](https://huggingface.co/Kijai/PrecompiledWheels/tree/main)<!-- END_FLASHATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 Flash Attention</summary>
@@ -339,6 +339,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.7.4.post1` | `3.12` | `2.6` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.7.4.post1%2Bcu124torch2.6-cp312-cp312-win_amd64.whl) |
 | `2.7.4` | `3.12` | `2.6.0` | `12.6` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu126torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
 | `2.7.4.post1` | `3.12` | `2.6` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.7.4.post1%2Bcu126torch2.6-cp312-cp312-win_amd64.whl) |
+| `2.7.4` | `3.12` | `2.6.0` | `12.8` | ✗ | Kijai | [Link](https://huggingface.co/Kijai/PrecompiledWheels/blob/main/flash_attn-2.7.4%2Bcu128torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
 | `2.7.4` | `3.12` | `2.7` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.3.9/flash_attn-2.7.4%2Bcu124torch2.7-cp312-cp312-win_amd64.whl) |
 | `2.7.4.post1` | `3.12` | `2.7` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.7.4.post1%2Bcu124torch2.7-cp312-cp312-win_amd64.whl) |
 | `2.7.4.post1` | `3.12` | `2.7` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.7.4.post1%2Bcu126torch2.7-cp312-cp312-win_amd64.whl) |
@@ -1207,67 +1208,6 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <hr />
 
-<!-- MANUAL WHEELS -->
-<a id="-手动添加轮子"></a>
-## 🟦 手动添加轮子
-
-如果您需要添加一些非标准命名或特殊来源的轮子（例如私有构建、自定义编译等），可以使用 `manual_wheels.json` 配置文件手动添加。
-
-> **⚠️ 重要**：系统**不会**自动解析版本号，所有版本信息必须手动提供。如果某个字段不提供，将显示为 `—`。
-
-### 快速使用
-
-1. **编辑 `manual_wheels.json` 文件**（项目根目录下已有示例）
-
-2. **添加您的轮子配置**：
-
-```json
-{
-  "packages": [
-    {
-      "id": "flashattention",
-      "wheels": [
-        {
-          "url": "https://example.com/your_custom_wheel.whl",
-          "source": "Custom Build",
-          "package_version": "2.0.0",
-          "python_version": "3.11",
-          "torch_version": "2.4.0",
-          "cuda_version": "12.1"
-        }
-      ]
-    }
-  ]
-}
-```
-
-3. **运行更新脚本**：
-
-```bash
-python scripts/update_wheels.py
-```
-
-手动添加的轮子会自动合并到 `wheels.json` 和 README 表格中。
-
-### 配置说明
-
-- **`id`**（必填）：包ID，必须匹配 `sources_config.json` 中的现有包ID
-- **`url`**（必填）：轮子的下载链接
-- **`package_version`**（必填）：包版本号，如 `"2.0.0"`
-- **其他字段**（可选）：如果不提供，将显示为 `—`
-  - `source`：来源名称（默认为 `"Manual"`）
-  - `python_version`：Python 版本，如 `"3.11"`
-  - `torch_version`：PyTorch 版本，如 `"2.4.0"`
-  - `cuda_version`：CUDA 版本，如 `"12.1"`
-  - `cxx11_abi`：CXX11 ABI 兼容性（`true`/`false`/`null`）
-
-### 更多信息
-
-详细使用指南和示例请参阅 **[MANUAL_WHEELS_GUIDE.md](MANUAL_WHEELS_GUIDE.md)**。
-
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
-<hr />
-
 <!-- CONTRIBUTING -->
 <a id="-贡献-contributing"></a>
 ## 🟦 贡献 (Contributing)
@@ -1284,6 +1224,7 @@ python scripts/update_wheels.py
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
+
 
 
 
