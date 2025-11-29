@@ -10,11 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-<<<<<<< HEAD
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-11-29T21:15:19.614430+00:00<!-- END_LAST_UPDATED --></strong>
-=======
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-11-29T21:15:43.142175+00:00<!-- END_LAST_UPDATED --></strong>
->>>>>>> b4b6a72 (chore(worker): refresh wheels data and README)
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-11-29T21:20:50.907164+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -51,7 +47,6 @@
         <li><a href="#️-radialattention-for-comfyui">RadialAttention</a></li>
       </ul>
     </li>
-    <li><a href="#-手动添加轮子">手动添加轮子</a></li>
     <li><a href="#-贡献-contributing">贡献</a></li>
     <li><a href="#-致谢-acknowledgments">致谢</a></li>
   </ol>
@@ -1229,6 +1224,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
+
 
 
 
