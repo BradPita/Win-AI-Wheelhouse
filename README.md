@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-04T03:57:21.252976+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-05T03:56:48.376286+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -608,10 +608,13 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.32.post2` | `3.9` | `2.8-2.9` | `12.9` | PyTorch | [Link](https://download.pytorch.org/whl/cu129/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
+| `0.0.33.post2` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
+| `0.0.33.post2` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
+| `0.0.33.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.9` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.9-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.10` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.10-cp39-abi3-win_amd64.whl) |
 <!-- END_XFORMERS_TABLE -->
