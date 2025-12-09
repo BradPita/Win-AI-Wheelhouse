@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-08T04:01:52.865797+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-09T03:55:25.750503+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -1187,7 +1187,6 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 | `0.41.0` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.0-py3-none-win_amd64.whl) |
 | `0.41.1` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl) |
 | `0.41.2.post2` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.2.post2-py3-none-win_amd64.whl) |
-| `0.43.2` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/0.43.2/bitsandbytes-0.43.2-py3-none-win_amd64.whl) |
 | `1.0.0` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-1.0.0-py3-none-win_amd64.whl) |
 | `1.33.7.preview` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_main/bitsandbytes-1.33.7.preview-py3-none-win_amd64.whl) |
 <!-- END_BITSANDBYTES_TABLE -->
