@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-25T16:45:03.133936+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2025-12-25T16:53:06.739015+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -415,7 +415,6 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.13` | `2.8` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu124torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.8` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu126torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.8` | `12.8` | — | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3%2Bcu128torch2.8-cp313-cp313-win_amd64.whl) |
-| `2.8.3` | `3.13` | `2.8.0` | `12.8` | ✓ | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3%2Bcu128torch2.8.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.4` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.19/flash_attn-2.8.3%2Bcu124torch2.9-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.15/flash_attn-2.8.3%2Bcu126torch2.9-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9.0` | `12.9` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu129torch2.9.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
