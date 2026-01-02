@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-01T03:08:21.233950+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-02T02:58:42.833598+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -850,7 +850,6 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 | `1.0.0.dev20250903` | `3.10` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250903/nunchaku-1.0.0.dev20250903%2Btorch2.5-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250904` | `3.10` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250904/nunchaku-1.0.0.dev20250904%2Btorch2.5-cp310-cp310-win_amd64.whl) |
 | `1.0.0` | `3.10` | `2.6` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0/nunchaku-1.0.0%2Btorch2.6-cp310-cp310-win_amd64.whl) |
-| `1.0.0.dev20250820` | `3.10` | `2.6` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250820/nunchaku-1.0.0.dev20250820%2Btorch2.6-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250823` | `3.10` | `2.6` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250823/nunchaku-1.0.0.dev20250823%2Btorch2.6-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250830` | `3.10` | `2.6` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250830/nunchaku-1.0.0.dev20250830%2Btorch2.6-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250902` | `3.10` | `2.6` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250902/nunchaku-1.0.0.dev20250902%2Btorch2.6-cp310-cp310-win_amd64.whl) |
@@ -869,14 +868,12 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 | `1.0.0.dev20250903` | `3.10` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250903/nunchaku-1.0.0.dev20250903%2Btorch2.8-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250904` | `3.10` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250904/nunchaku-1.0.0.dev20250904%2Btorch2.8-cp310-cp310-win_amd64.whl) |
 | `1.0.0` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0/nunchaku-1.0.0%2Btorch2.9-cp310-cp310-win_amd64.whl) |
-| `1.0.0.dev20250820` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250820/nunchaku-1.0.0.dev20250820%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250823` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250823/nunchaku-1.0.0.dev20250823%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250830` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250830/nunchaku-1.0.0.dev20250830%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250902` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250902/nunchaku-1.0.0.dev20250902%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250903` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250903/nunchaku-1.0.0.dev20250903%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0.dev20250904` | `3.10` | `2.9` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250904/nunchaku-1.0.0.dev20250904%2Btorch2.9-cp310-cp310-win_amd64.whl) |
 | `1.0.0` | `3.11` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0/nunchaku-1.0.0%2Btorch2.5-cp311-cp311-win_amd64.whl) |
-| `1.0.0.dev20250820` | `3.11` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250820/nunchaku-1.0.0.dev20250820%2Btorch2.5-cp311-cp311-win_amd64.whl) |
 | `1.0.0.dev20250823` | `3.11` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250823/nunchaku-1.0.0.dev20250823%2Btorch2.5-cp311-cp311-win_amd64.whl) |
 | `1.0.0.dev20250830` | `3.11` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250830/nunchaku-1.0.0.dev20250830%2Btorch2.5-cp311-cp311-win_amd64.whl) |
 | `1.0.0.dev20250902` | `3.11` | `2.5` | nunchaku-tech | [Link](https://github.com/nunchaku-tech/nunchaku/releases/download/v1.0.0dev20250902/nunchaku-1.0.0.dev20250902%2Btorch2.5-cp311-cp311-win_amd64.whl) |
