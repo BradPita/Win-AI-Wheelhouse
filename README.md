@@ -10,7 +10,11 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
+<<<<<<< HEAD
     <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-09T20:43:48.055214+00:00<!-- END_LAST_UPDATED --></strong>
+=======
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-09T20:44:17.444665+00:00<!-- END_LAST_UPDATED --></strong>
+>>>>>>> 1bd8258 (chore(worker): refresh wheels data and README)
   </p>
 </div>
 
