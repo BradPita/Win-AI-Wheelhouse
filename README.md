@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-13T02:56:53.167100+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-14T03:04:49.774415+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -219,6 +219,9 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `2.8.0a0` | `3.12` | `2.9.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.8.0a0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
 | `2.8.0a0` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.8.0a0%2Bcu130torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
+| `2.11.0a0` | `3.13` | `2.10.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bcu128torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
+| `2.11.0a0` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bcu130torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
+| `2.11.0a0` | `3.13` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bcu130torch2.11.0cxx11abi1-cp313-cp313-win_amd64.whl) |
 <!-- END_TORCHAUDIO_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -429,6 +432,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.13` | `2.9.1` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.10.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.10.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.10.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.11.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 <!-- END_FLASHATTENTION_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -622,6 +626,8 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.33.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.9` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.9-cp39-abi3-win_amd64.whl) |
 | `0.0.33` | `3.9` | `2.10` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.10-cp39-abi3-win_amd64.whl) |
+| `0.0.34` | `3.9` | `2.10` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.34%2Btorch2.10cu130-cp39-abi3-win_amd64.whl) |
+| `0.0.34` | `3.9` | `2.11` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.34%2Btorch2.11cu130-cp39-abi3-win_amd64.whl) |
 <!-- END_XFORMERS_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
