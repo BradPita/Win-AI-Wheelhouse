@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-26T03:14:09.109976+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-01-27T03:06:23.138833+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -599,54 +599,54 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.28.post3` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.28.post3-cp312-cp312-win_amd64.whl#sha256=3a3a0b8b12fadff6a111effcdc3573c6a584a8d71fbd5ead77999fec658ab919) |
 | `0.0.29` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29-cp39-cp39-win_amd64.whl#sha256=0477735b8b3123c8a8a0a82fe1e42a42f68860b8d18ca1120695ef32e5179cdd) |
 | `0.0.29.post1` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post1-cp39-cp39-win_amd64.whl#sha256=c23e82f232ff88fcf13b8ebb2c48d1c4f3f8d12640b8e3e82d671db5182d4e1a) |
-| `0.0.29.post2` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp39-cp39-win_amd64.whl) |
-| `0.0.29.post3` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp39-cp39-win_amd64.whl) |
-| `0.0.29.post3` | `3.9` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp39-cp39-win_amd64.whl) |
+| `0.0.29.post2` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp39-cp39-win_amd64.whl#sha256=eb73626de82953fa7673a19ddcff3ef37d5de5f4e3230fe18dfd99c52460c55d) |
+| `0.0.29.post3` | `3.9` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp39-cp39-win_amd64.whl#sha256=14cb310fa78fdbe68772ce55e624b6a75d5766b2450030da49baa61112b801f1) |
+| `0.0.29.post3` | `3.9` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp39-cp39-win_amd64.whl#sha256=800972a992d107ae835d5ac921a2ab4314db724b9063e6c9bd8920589973acfa) |
 | `0.0.29` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29-cp310-cp310-win_amd64.whl#sha256=1afa261d5143636140b1749638d89ac21a0d04596c8ee1efd0b2e7ea2be28bff) |
 | `0.0.29.post1` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post1-cp310-cp310-win_amd64.whl#sha256=b2e55d3209b95f702fb17caecd58c890192548941bbbee72f74aacb0d7c7690e) |
-| `0.0.29.post2` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp310-cp310-win_amd64.whl) |
-| `0.0.29.post3` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp310-cp310-win_amd64.whl) |
-| `0.0.29.post3` | `3.10` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp310-cp310-win_amd64.whl) |
+| `0.0.29.post2` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp310-cp310-win_amd64.whl#sha256=2eed954ce0491d379f19ea38796027d367e259a90d1fcc9f4166331c1c27ce87) |
+| `0.0.29.post3` | `3.10` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp310-cp310-win_amd64.whl#sha256=34f13d69ad9404e44ae11169e99842c3fccdc2c75b1fc4831a70c78392d990db) |
+| `0.0.29.post3` | `3.10` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp310-cp310-win_amd64.whl#sha256=0c95e6fdb60e360801bc851a0e2b5b1fcfa8056d547a074a8823a49db01ba3b0) |
 | `0.0.29` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29-cp311-cp311-win_amd64.whl#sha256=c4ed5142cd19ba4723fa4dcf532229fbdbd9617a340450c06d7a9d9132aab154) |
 | `0.0.29.post1` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post1-cp311-cp311-win_amd64.whl#sha256=dc3aea9f8a3d239f75cc218edb7fbd69f77817e195bdc1d734c43a6e68dbf589) |
-| `0.0.29.post2` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp311-cp311-win_amd64.whl) |
-| `0.0.29.post3` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp311-cp311-win_amd64.whl) |
-| `0.0.29.post3` | `3.11` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp311-cp311-win_amd64.whl) |
+| `0.0.29.post2` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp311-cp311-win_amd64.whl#sha256=eb1db57f05b595ed9f1d0f8cc83a8e54d2c0737a16982238a01e93bdd0f2a4f5) |
+| `0.0.29.post3` | `3.11` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp311-cp311-win_amd64.whl#sha256=00f2dfd94c894ff6372e21bee3f09e96bce75b55649df366649c43f049eb7a1e) |
+| `0.0.29.post3` | `3.11` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp311-cp311-win_amd64.whl#sha256=5128b3a90c305a506cc95b5879d39c5bd931137108e2cadc2c3c54ef5c8a2390) |
 | `0.0.29` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29-cp312-cp312-win_amd64.whl#sha256=e4a1788368db4857269289772678f6c97252a9bc31ae2083517e124b6a82c086) |
 | `0.0.29.post1` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post1-cp312-cp312-win_amd64.whl#sha256=9ef5f35330dd6b54f7457a888db07aa36a56935c5d1dc4e1a9f1909bbaa3ac4d) |
-| `0.0.29.post2` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp312-cp312-win_amd64.whl) |
-| `0.0.29.post3` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp312-cp312-win_amd64.whl) |
-| `0.0.29.post3` | `3.12` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp312-cp312-win_amd64.whl) |
-| `0.0.30` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp39-cp39-win_amd64.whl) |
-| `0.0.30` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp39-cp39-win_amd64.whl) |
-| `0.0.30` | `3.10` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp310-cp310-win_amd64.whl) |
-| `0.0.30` | `3.10` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp310-cp310-win_amd64.whl) |
-| `0.0.30` | `3.11` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp311-cp311-win_amd64.whl) |
-| `0.0.30` | `3.11` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp311-cp311-win_amd64.whl) |
-| `0.0.30` | `3.12` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp312-cp312-win_amd64.whl) |
-| `0.0.30` | `3.12` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp312-cp312-win_amd64.whl) |
-| `0.0.31` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.31-cp39-abi3-win_amd64.whl) |
-| `0.0.31.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.31.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.31` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.31-cp39-abi3-win_amd64.whl) |
-| `0.0.31.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.31.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.32.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.32.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.32.post2` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl) |
-| `0.0.32.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.32.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.32.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl) |
+| `0.0.29.post2` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post2-cp312-cp312-win_amd64.whl#sha256=a3ddb47abce3810d3928e8f48b290c0423c7939764a217c2b35ac8124a3cf641) |
+| `0.0.29.post3` | `3.12` | `2.4-2.6` | `12.4` | PyTorch | [Link](https://download.pytorch.org/whl/cu124/xformers-0.0.29.post3-cp312-cp312-win_amd64.whl#sha256=3706eca371767ff9709595185910d809fc817ec3cf4234ef44d70d2b8844d7e2) |
+| `0.0.29.post3` | `3.12` | `2.5-2.6` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.29.post3-cp312-cp312-win_amd64.whl#sha256=2e658e2b2c45229e5c74d527055b51616d24f8bac243dbf1b2817ce525b9d8ba) |
+| `0.0.30` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp39-cp39-win_amd64.whl#sha256=9ce1634798cb96643f077acbced80f985e3cdab12cf468851057ed31cab0bdab) |
+| `0.0.30` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp39-cp39-win_amd64.whl#sha256=7ae83a603b5887694fba4564b1e4b37e68d0a4cb1f424332c86eb834fa1347f2) |
+| `0.0.30` | `3.10` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp310-cp310-win_amd64.whl#sha256=9e54eed6080e65455213174ad6b26c5e361715ca2d52759fde26055188802d92) |
+| `0.0.30` | `3.10` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp310-cp310-win_amd64.whl#sha256=894d0d4926c0e984b61d0d260f43495085f1e2300332bb76520735a6e6279922) |
+| `0.0.30` | `3.11` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp311-cp311-win_amd64.whl#sha256=7b2e2aa615bce02ac20d58232b0e17304c62ec533ac0db2040a948df0155858d) |
+| `0.0.30` | `3.11` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp311-cp311-win_amd64.whl#sha256=8b639361742031783488bfdcce5df64b0d713f30ac573e2dabc453de3948b4ac) |
+| `0.0.30` | `3.12` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.30-cp312-cp312-win_amd64.whl#sha256=8549ca30700d70dae904ec4407c6188cd73fd551e585f862c1d3aca3b7bc371c) |
+| `0.0.30` | `3.12` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.30-cp312-cp312-win_amd64.whl#sha256=097610300c1498f3d26823a77b32825e25f0ecb35ce1d7a12e5cdab5c7e81e99) |
+| `0.0.31` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.31-cp39-abi3-win_amd64.whl#sha256=23331bdb9831ba0df96f55258537ca0df7ad888efc75cea97a0de79b5e2291c4) |
+| `0.0.31.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.31.post1-cp39-abi3-win_amd64.whl#sha256=294c30125442f5a84964e5b87b3cd5e83b87053896a13bbfee17c0043ee66e62) |
+| `0.0.31` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.31-cp39-abi3-win_amd64.whl#sha256=88e145ec5c846db79046625b388a146a18968ca87a7a1c02843acba40ddf1d6a) |
+| `0.0.31.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.31.post1-cp39-abi3-win_amd64.whl#sha256=cbe0db2fcb8ec68f7bac0f13ee71450452506857e375be34001b339947369e33) |
+| `0.0.32.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.32.post1-cp39-abi3-win_amd64.whl#sha256=81f39be9581b978685d38d6165afc16046e072511a7c1f49fdba4c6c76852e36) |
+| `0.0.32.post2` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl#sha256=f6634c152bd84ae59f5ff1db147576973d8b38f0286d03c35e9ae5519e5dd792) |
+| `0.0.32.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.32.post1-cp39-abi3-win_amd64.whl#sha256=feb452bc2c8731da1c5d0e2e4536ba95bb214f77b41e91f24443c74d6f98a126) |
+| `0.0.32.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl#sha256=87fa13f4b406ed640554cea6687d0020b496bd6b446ca17d24f9438a079e6f09) |
 | `0.0.32.post1` | `3.9` | `2.8-2.9` | `12.9` | PyTorch | [Link](https://download.pytorch.org/whl/cu129/xformers-0.0.32.post1-cp39-abi3-win_amd64.whl) |
 | `0.0.32.post2` | `3.9` | `2.8-2.9` | `12.9` | PyTorch | [Link](https://download.pytorch.org/whl/cu129/xformers-0.0.32.post2-cp39-abi3-win_amd64.whl) |
-| `0.0.33` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
-| `0.0.33.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.33.post2` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
+| `0.0.33` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33-cp39-abi3-win_amd64.whl#sha256=958d1475199ffad3776c3e8d72b84ba1242d11a038ec0435e4e18c9cb648783b) |
+| `0.0.33.post1` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl#sha256=6be529f90cacac9279913e8c738f2b6f260a54e2ae975f0f17f1538cc1669635) |
+| `0.0.33.post2` | `3.9` | `2.5+` | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl#sha256=c1142f7418ff5e501675c52a7a87bcd2d085134f45fec80dd18045c0528703fc) |
 | `0.0.33` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post1` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
 | `0.0.33.post2` | `3.9` | `2.9+` | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
-| `0.0.33` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-win_amd64.whl) |
-| `0.0.33.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl) |
-| `0.0.33.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl) |
+| `0.0.33` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-win_amd64.whl#sha256=d5635ceac32c8216744a18fb328c0eafdcdb45aaab3de415edf9b1caf6fa9dcc) |
+| `0.0.33.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl#sha256=e20729ca1647d53f86143bd57451af953bb78e72677548c972cd016238a066e3) |
+| `0.0.33.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl#sha256=4a0a59a0c698a483f13ecad967dbbe71386827985e80cc373bec4cdf9aed59cd) |
 | `0.0.33` | `3.9` | `2.10` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.10-cp39-abi3-win_amd64.whl) |
-| `0.0.34` | `3.9` | — | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.34-cp39-abi3-win_amd64.whl) |
-| `0.0.34` | `3.9` | — | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.34-cp39-abi3-win_amd64.whl) |
+| `0.0.34` | `3.9` | — | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.34-cp39-abi3-win_amd64.whl#sha256=d8eda7f3e36862251b4e17720e1f1330056e4cd7279f1ed7c3ef79759b2a1017) |
+| `0.0.34` | `3.9` | — | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.34-cp39-abi3-win_amd64.whl#sha256=941979e890dd18e26f9860daa83acb706e658345d18511a962f909067331cc19) |
 | `0.0.34` | `3.9` | — | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.34-cp39-abi3-win_amd64.whl) |
 <!-- END_XFORMERS_TABLE -->
 </details>
@@ -734,6 +734,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch290%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.9.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch291%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.10.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2100%2Bcu130/sageattention-2.2.0%2Bcu130torch2.10.0-cp311-cp311-win_amd64.whl.whl) |
 | `2.2.0` | `3.12` | `2.7.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
@@ -1228,9 +1229,9 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 |:---:|:---:|:---:|:---:|
 | `3.0.0` | `3.8` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.0.0-cp38-cp38-win_amd64.whl) |
 | `3.0.0` | `3.9` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.0.0-cp39-cp39-win_amd64.whl) |
-| `3.0.0` | `3.10` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post1/triton-3.0.0-cp310-cp310-win_amd64.whl) |
-| `3.0.0` | `3.11` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post1/triton-3.0.0-cp311-cp311-win_amd64.whl) |
-| `3.0.0` | `3.12` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post1/triton-3.0.0-cp312-cp312-win_amd64.whl) |
+| `3.0.0` | `3.10` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post2/triton-3.0.0-cp310-cp310-win_amd64.whl) |
+| `3.0.0` | `3.11` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post2/triton-3.0.0-cp311-cp311-win_amd64.whl) |
+| `3.0.0` | `3.12` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.0.0-windows.post2/triton-3.0.0-cp312-cp312-win_amd64.whl) |
 | `3.1.0` | `3.8` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.1.0-cp38-cp38-win_amd64.whl) |
 | `3.1.0` | `3.9` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.1.0-cp39-cp39-win_amd64.whl) |
 | `3.1.0` | `3.10` | woct0rdho | [Link](https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post4/triton-3.1.0-cp310-cp310-win_amd64.whl) |
