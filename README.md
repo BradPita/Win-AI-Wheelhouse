@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-02-19T03:37:13.757482+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-02-20T03:32:58.340170+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -412,7 +412,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 ### ⚙️ xformers
 Meta 开发的内存高效注意力库，提供多种优化算子，广泛应用于图像生成和 LLM 推理。
 *   **官方仓库**： [facebookresearch/xformers](https://github.com/facebookresearch/xformers/releases)
-*   **预编译来源**： <!-- START_XFORMERS_SOURCES -->[PyTorch](https://download.pytorch.org/whl/xformers/)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_XFORMERS_SOURCES -->
+*   **预编译来源**： <!-- START_XFORMERS_SOURCES -->[PyTorch](https://download.pytorch.org/whl/xformers/)<!-- END_XFORMERS_SOURCES -->
 > [!NOTE]
 > 安装 PyTorch 后通常可以直接 `pip install xformers`。若失败，可在预编译来源中寻找与环境匹配的 wheel。
 
@@ -594,7 +594,6 @@ ABI3 版本可兼容 Python 3.9-3.12。
 | `0.0.33` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-win_amd64.whl#sha256=d5635ceac32c8216744a18fb328c0eafdcdb45aaab3de415edf9b1caf6fa9dcc) |
 | `0.0.33.post1` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post1-cp39-abi3-win_amd64.whl#sha256=e20729ca1647d53f86143bd57451af953bb78e72677548c972cd016238a066e3) |
 | `0.0.33.post2` | `3.9` | `2.7-2.9` | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.33.post2-cp39-abi3-win_amd64.whl#sha256=4a0a59a0c698a483f13ecad967dbbe71386827985e80cc373bec4cdf9aed59cd) |
-| `0.0.33` | `3.9` | `2.10` | `13.0` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/xformers-0.0.33%2Bcu130torch2.10-cp39-abi3-win_amd64.whl) |
 | `0.0.34` | `3.9` | — | `12.6` | PyTorch | [Link](https://download.pytorch.org/whl/cu126/xformers-0.0.34-cp39-abi3-win_amd64.whl#sha256=d8eda7f3e36862251b4e17720e1f1330056e4cd7279f1ed7c3ef79759b2a1017) |
 | `0.0.34` | `3.9` | — | `12.8` | PyTorch | [Link](https://download.pytorch.org/whl/cu128/xformers-0.0.34-cp39-abi3-win_amd64.whl#sha256=941979e890dd18e26f9860daa83acb706e658345d18511a962f909067331cc19) |
 | `0.0.34` | `3.9` | — | `13.0` | PyTorch | [Link](https://download.pytorch.org/whl/cu130/xformers-0.0.34-cp39-abi3-win_amd64.whl) |
