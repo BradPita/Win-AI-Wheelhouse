@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-02-22T03:37:20.023607+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-02-23T03:41:32.070326+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -218,7 +218,6 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | CXX11 ABI | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `2.8.0a0` | `3.12` | `2.9.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.8.0a0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
-| `2.8.0a0` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.8.0a0%2Bcu130torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
 | `2.11.0a0` | `3.12` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bd20260121.cu130torch2.10.0cxx11abi1-cp312-cp312-win_amd64.whl) |
 | `2.11.0a0` | `3.13` | `2.10.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bcu128torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
 | `2.11.0a0` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/torchaudio-2.11.0a0%2Bcu130torch2.10.0cxx11abi1-cp313-cp313-win_amd64.whl) |
