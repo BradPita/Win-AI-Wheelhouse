@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-08-07T03:43:19.408865+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-08-08T02:50:38.947981+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -226,7 +226,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 ### ⚙️ Flash Attention
 高性能注意力机制的先驱实现，通过分块计算和重计算策略大幅降低显存并提速。
 *   **官方仓库**： [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
-*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)<!-- END_FLASHATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_FLASHATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel/tree/main)、[mjun0812](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases)、[BradPita](https://huggingface.co/BradPita/Win-AI-Wheelhouse/tree/main)、[Kijai](https://huggingface.co/Kijai/PrecompiledWheels/tree/main)<!-- END_FLASHATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 Flash Attention</summary>
@@ -239,6 +239,33 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 <!-- START_FLASHATTENTION_TABLE -->
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | CXX11 ABI | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| `2.7.0.post2` | `3.10` | `2.4.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.0cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.0.post2` | `3.10` | `2.4.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.1cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.0.post2` | `3.11` | `2.4.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.0cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.0.post2` | `3.11` | `2.4.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.1cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.0.post2` | `3.11` | `2.5.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.5.0cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.0.post2` | `3.11` | `2.5.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.5.1cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.0.post2` | `3.12` | `2.4.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.0.post2` | `3.12` | `2.4.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.4.1cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.0.post2` | `3.12` | `2.5.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.5.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.0.post2` | `3.12` | `2.5.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.0.post2%2Bcu124torch2.5.1cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.4` | `3.10` | `2.5.1` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu124torch2.5.1cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.4` | `3.10` | `2.6.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu124torch2.6.0cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.4` | `3.10` | `2.6.0` | `12.6` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu126torch2.6.0cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.4.post1` | `3.10` | `2.7.0` | `12.8` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1%2Bcu128torch2.7.0cxx11abiFALSE-cp310-cp310-win_amd64.whl) |
+| `2.7.4.post1` | `3.10` | `2.8.0` | `12.8` | ✓ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1%2Bcu128torch2.8.0cxx11abiTRUE-cp310-cp310-win_amd64.whl) |
+| `2.7.4` | `3.11` | `2.6.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu124torch2.6.0cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.4` | `3.11` | `2.6.0` | `12.6` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu126torch2.6.0cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.4.post1` | `3.11` | `2.7.0` | `12.8` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1%2Bcu128torch2.7.0cxx11abiFALSE-cp311-cp311-win_amd64.whl) |
+| `2.7.4` | `3.12` | `2.6.0` | `12.4` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu124torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.4` | `3.12` | `2.6.0` | `12.6` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4%2Bcu126torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.4` | `3.12` | `2.6.0` | `12.8` | ✗ | Kijai | [Link](https://huggingface.co/Kijai/PrecompiledWheels/blob/main/flash_attn-2.7.4%2Bcu128torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.4.post1` | `3.12` | `2.7.0` | `12.8` | ✗ | lldacing | [Link](https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1%2Bcu128torch2.7.0cxx11abiFALSE-cp312-cp312-win_amd64.whl) |
+| `2.7.4.post1` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.7.4.post1%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
+| `2.8.0.post2` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.0.post2%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
+| `2.8.1` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.1%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
+| `2.8.2` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.2%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
+| `2.8.2` | `3.12` | `2.9.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.2%2Bcu128torch2.9.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.10` | `2.12` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.25/flash_attn-2.8.3%2Bcu126torch2.12-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `3.10` | `2.12` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.26/flash_attn-2.8.3%2Bcu130torch2.12-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `3.10` | `2.12` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.26/flash_attn-2.8.3%2Bcu132torch2.12-cp310-cp310-win_amd64.whl) |
@@ -251,26 +278,40 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.11` | `2.13` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu126torch2.13-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp311-cp311-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu126torch2.9-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.9.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.9.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.9` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu128torch2.9-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.9.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.9` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu130torch2.9-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.9.1` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.10` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu126torch2.10-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.10` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu128torch2.10-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.10.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.10` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu130torch2.10-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bd20260120.cu130torch2.11.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.12` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.26/flash_attn-2.8.3%2Bcu126torch2.12-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.12` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.25/flash_attn-2.8.3%2Bcu130torch2.12-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.12` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.25/flash_attn-2.8.3%2Bcu132torch2.12-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.13` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu126torch2.13-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.8` | `12.8` | — | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3%2Bcu128torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu126torch2.9-cp313-cp313t-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu128torch2.9-cp313-cp313t-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.9.0` | `12.9` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu129torch2.9.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.9.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu130torch2.9-cp313-cp313t-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.9.1` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.9.1` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.9.1cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.10` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu126torch2.10-cp313-cp313t-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.10.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.10.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.10` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu128torch2.10-cp313-cp313t-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.10.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.10.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.10` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu130torch2.10-cp313-cp313t-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.11` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu126torch2.11-cp313-cp313t-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.11` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu128torch2.11-cp313-cp313t-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu130torch2.11.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.11` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu130torch2.11-cp313-cp313t-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.12` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.23/flash_attn-2.8.3%2Bcu126torch2.12-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.12` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.23/flash_attn-2.8.3%2Bcu130torch2.12-cp313-cp313-win_amd64.whl) |
@@ -290,6 +331,10 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.14` | `2.13` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu126torch2.13-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp314-cp314-win_amd64.whl) |
+| `2.8.4` | `3.13` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.11.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
+| `2.8.4` | `3.13` | `2.12.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.12.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
+| `2.8.4` | `3.14` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.11.0cxx11abiTRUE-cp314-cp314-win_amd64.whl) |
+| `2.8.4` | `3.14` | `2.12.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.12.0cxx11abiTRUE-cp314-cp314-win_amd64.whl) |
 | `3.0.0` | `3.9` | `2.12` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.25/flash_attn_3-3.0.0%2Bcu126torch2.12gite2743ab-cp39-abi3-win_amd64.whl) |
 | `3.0.0` | `3.9` | `2.12` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.23/flash_attn_3-3.0.0%2Bcu130torch2.12gite2743ab-cp39-abi3-win_amd64.whl) |
 | `3.0.0` | `3.9` | `2.12` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.25/flash_attn_3-3.0.0%2Bcu132torch2.12gite2743ab-cp39-abi3-win_amd64.whl) |
@@ -541,7 +586,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention 2.2 (SageAttention2++)
 SageAttention 的升级版本，引入更先进的量化策略和优化算法，显存节省更多，速度更快。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)、[Mengqin](https://github.com/mengqin/SageAttention/releases)<!-- END_SAGEATTENTION22_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)、[Mengqin](https://github.com/mengqin/SageAttention/releases)<!-- END_SAGEATTENTION22_SOURCES -->
 > [!NOTE]
 > 仅支持 CUDA ≥ 12.8，因此需搭配 PyTorch ≥ 2.7。
 
@@ -591,10 +636,17 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0` | `3.12` | `2.7.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
+| `2.2.0` | `3.12` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.9.1` | `13.0` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu130torch291-cp312-cp312-win_amd64.whl) |
+| `2.2.0.post3` | `3.12` | `2.10.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.10.0-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.13` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp313-cp313-win_amd64.whl) |
 | `2.2.0` | `3.13` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
+| `2.2.0.post3` | `3.13` | `2.8.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
+| `2.2.0.post3` | `3.13` | `2.8.0` | `12.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu129torch2.8.0-cp313-cp313-win_amd64.whl) |
+| `2.2.0.post3` | `3.13` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.9.0-cp313-cp313-win_amd64.whl) |
+| `2.2.0.post3` | `3.13` | `2.9.0` | `12.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu129torch2.9.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0` | `3.13` | `2.9.1` | `13.0` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu130torch291-cp313-cp313-win_amd64.whl) |
+| `2.2.0.post3` | `3.13` | `2.10.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.10.0-cp313-cp313-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -667,7 +719,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 ### ⚙️ Nunchaku
 MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐量。
 *   **官方仓库**： [mit-han-lab/nunchaku](https://github.com/mit-han-lab/nunchaku/releases)
-*   **预编译来源**： <!-- START_NUNCHAKU_SOURCES -->[nunchaku-tech](https://github.com/nunchaku-tech/nunchaku/releases)<!-- END_NUNCHAKU_SOURCES -->
+*   **预编译来源**： <!-- START_NUNCHAKU_SOURCES -->[nunchaku-tech](https://github.com/nunchaku-tech/nunchaku/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_NUNCHAKU_SOURCES -->
 
 <details>
   <summary>展开已收录的 Nunchaku</summary>
@@ -832,6 +884,8 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 | `1.0.1.dev20250926` | `3.12` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250926/nunchaku-1.0.1.dev20250926%2Btorch2.8-cp312-cp312-win_amd64.whl) |
 | `1.0.1.dev20250929` | `3.12` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250929/nunchaku-1.0.1.dev20250929%2Btorch2.8-cp312-cp312-win_amd64.whl) |
 | `1.0.1.dev20250930` | `3.12` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250930/nunchaku-1.0.1.dev20250930%2Btorch2.8-cp312-cp312-win_amd64.whl) |
+| `1.0.1` | `3.12` | `2.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/nunchaku-1.0.1%2Bcu128torch2.9-cp312-cp312-win_amd64.whl) |
+| `1.0.1` | `3.12` | `2.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/nunchaku-1.0.1%2Bcu130torch2.9-cp312-cp312-win_amd64.whl) |
 | `1.0.1` | `3.12` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1/nunchaku-1.0.1%2Btorch2.10-cp312-cp312-win_amd64.whl) |
 | `1.0.1.dev20250923` | `3.12` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250923/nunchaku-1.0.1.dev20250923%2Btorch2.10-cp312-cp312-win_amd64.whl) |
 | `1.0.1.dev20250924` | `3.12` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250924/nunchaku-1.0.1.dev20250924%2Btorch2.10-cp312-cp312-win_amd64.whl) |
@@ -856,6 +910,8 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 | `1.0.1.dev20250926` | `3.13` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250926/nunchaku-1.0.1.dev20250926%2Btorch2.8-cp313-cp313-win_amd64.whl) |
 | `1.0.1.dev20250929` | `3.13` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250929/nunchaku-1.0.1.dev20250929%2Btorch2.8-cp313-cp313-win_amd64.whl) |
 | `1.0.1.dev20250930` | `3.13` | `2.8` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250930/nunchaku-1.0.1.dev20250930%2Btorch2.8-cp313-cp313-win_amd64.whl) |
+| `1.0.1` | `3.13` | `2.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/nunchaku-1.0.1%2Bcu128torch2.9-cp313-cp313-win_amd64.whl) |
+| `1.0.1` | `3.13` | `2.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/nunchaku-1.0.1%2Bcu130torch2.9-cp313-cp313-win_amd64.whl) |
 | `1.0.1` | `3.13` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1/nunchaku-1.0.1%2Btorch2.10-cp313-cp313-win_amd64.whl) |
 | `1.0.1.dev20250923` | `3.13` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250923/nunchaku-1.0.1.dev20250923%2Btorch2.10-cp313-cp313-win_amd64.whl) |
 | `1.0.1.dev20250924` | `3.13` | `2.10` | nunchaku-tech | [Link](https://github.com/nunchaku-ai/nunchaku/releases/download/v1.0.1dev20250924/nunchaku-1.0.1.dev20250924%2Btorch2.10-cp313-cp313-win_amd64.whl) |
@@ -1038,7 +1094,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ NATTEN (Neighborhood Attention Transformer)
 局部邻域注意力实现，在视觉任务中表现出色。
 *   **官方仓库**： [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN)
-*   **预编译来源**： <!-- START_NATTEN_SOURCES --><!-- END_NATTEN_SOURCES -->
+*   **预编译来源**： <!-- START_NATTEN_SOURCES -->[lldacing](https://huggingface.co/lldacing/NATTEN-windows/tree/main)<!-- END_NATTEN_SOURCES -->
 
 <details>
   <summary>展开已收录的 NATTEN</summary>
@@ -1046,6 +1102,24 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <!-- START_NATTEN_TABLE -->
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| `0.17.3` | `3.10` | `2.4.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch240cu124-cp310-cp310-win_amd64.whl) |
+| `0.17.3` | `3.10` | `2.4.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch241cu124-cp310-cp310-win_amd64.whl) |
+| `0.17.3` | `3.10` | `2.5.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch250cu124-cp310-cp310-win_amd64.whl) |
+| `0.17.3` | `3.10` | `2.5.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch251cu124-cp310-cp310-win_amd64.whl) |
+| `0.17.3` | `3.11` | `2.4.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch240cu124-cp311-cp311-win_amd64.whl) |
+| `0.17.3` | `3.11` | `2.4.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch241cu124-cp311-cp311-win_amd64.whl) |
+| `0.17.3` | `3.11` | `2.5.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch250cu124-cp311-cp311-win_amd64.whl) |
+| `0.17.3` | `3.11` | `2.5.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch251cu124-cp311-cp311-win_amd64.whl) |
+| `0.17.3` | `3.12` | `2.4.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch240cu124-cp312-cp312-win_amd64.whl) |
+| `0.17.3` | `3.12` | `2.4.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch241cu124-cp312-cp312-win_amd64.whl) |
+| `0.17.3` | `3.12` | `2.5.0` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch250cu124-cp312-cp312-win_amd64.whl) |
+| `0.17.3` | `3.12` | `2.5.1` | `12.4` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.3%2Btorch251cu124-cp312-cp312-win_amd64.whl) |
+| `0.17.5` | `3.10` | `2.6.0` | `12.6` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch260cu126-cp310-cp310-win_amd64.whl) |
+| `0.17.5` | `3.10` | `2.7.0` | `12.8` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch270cu128-cp310-cp310-win_amd64.whl) |
+| `0.17.5` | `3.11` | `2.6.0` | `12.6` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch260cu126-cp311-cp311-win_amd64.whl) |
+| `0.17.5` | `3.11` | `2.7.0` | `12.8` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch270cu128-cp311-cp311-win_amd64.whl) |
+| `0.17.5` | `3.12` | `2.6.0` | `12.6` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch260cu126-cp312-cp312-win_amd64.whl) |
+| `0.17.5` | `3.12` | `2.7.0` | `12.8` | lldacing | [Link](https://huggingface.co/lldacing/NATTEN-windows/blob/main/natten-0.17.5%2Btorch270cu128-cp312-cp312-win_amd64.whl) |
 <!-- END_NATTEN_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
