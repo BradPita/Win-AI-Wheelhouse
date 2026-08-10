@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-08-09T02:57:45.942723+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-08-10T03:07:31.882069+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -544,7 +544,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention
 精准且高效的注意力机制，通过平滑量化大幅降低显存占用，同时保持精度。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： <!-- START_SAGEATTENTION_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)<!-- END_SAGEATTENTION_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)<!-- END_SAGEATTENTION_SOURCES -->
 
 <details>
   <summary>展开已收录的 SageAttention</summary>
@@ -552,8 +552,31 @@ ABI3 版本可兼容 Python 3.9-3.12。
 <!-- START_SAGEATTENTION2_TABLE -->
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| `2.1.1` | `3.12` | `2.6.0` | `12.6` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.1.1%2Bcu126torch2.6.0-cp312-cp312-win_amd64.whl) |
-| `2.1.1` | `3.12` | `2.8.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.1.1%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
+| `2.0.1` | `3.10` | `2.5.1` | `12.4` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/2.0.1/sageattention-2.0.1%2Bcu124torch2.5.1-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp39-cp39-win_amd64.whl) |
+| `2.1.1` | `3.9` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp39-cp39-win_amd64.whl) |
+| `2.1.1` | `3.9` | `2.7.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp39-cp39-win_amd64.whl) |
+| `2.1.1` | `3.9` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp39-cp39-win_amd64.whl) |
+| `2.1.1` | `3.9` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp39-cp39-win_amd64.whl) |
+| `2.1.1` | `3.10` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.10` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.10` | `2.7.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.10` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.10` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp310-cp310-win_amd64.whl) |
+| `2.1.1` | `3.11` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `3.11` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `3.11` | `2.7.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `3.11` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
+| `2.1.1` | `3.12` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu124torch2.5.1-cp312-cp312-win_amd64.whl) |
+| `2.1.1` | `3.12` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp312-cp312-win_amd64.whl) |
+| `2.1.1` | `3.12` | `2.7.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp312-cp312-win_amd64.whl) |
+| `2.1.1` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
+| `2.1.1` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
+| `2.1.1` | `3.13` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu126torch2.6.0-cp313-cp313-win_amd64.whl) |
+| `2.1.1` | `3.13` | `2.7.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.0-cp313-cp313-win_amd64.whl) |
+| `2.1.1` | `3.13` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.7.1-cp313-cp313-win_amd64.whl) |
+| `2.1.1` | `3.13` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 <!-- END_SAGEATTENTION2_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -563,7 +586,7 @@ ABI3 版本可兼容 Python 3.9-3.12。
 ### ⚙️ SageAttention 2.2 (SageAttention2++)
 SageAttention 的升级版本，引入更先进的量化策略和优化算法，显存节省更多，速度更快。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention)
-*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)<!-- END_SAGEATTENTION22_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION22_SOURCES -->[woct0rdho](https://github.com/woct0rdho/SageAttention/releases)、[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Wildminder](https://huggingface.co/Wildminder/AI-windows-whl/tree/main)、[Eddy](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/tree/main)、[Mengqin](https://github.com/mengqin/SageAttention/releases)<!-- END_SAGEATTENTION22_SOURCES -->
 > [!NOTE]
 > 仅支持 CUDA ≥ 12.8，因此需搭配 PyTorch ≥ 2.7。
 
@@ -573,13 +596,56 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 <!-- START_SAGEATTENTION22_TABLE -->
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| `2.2.0.post1` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu124torch2.5.1.post1-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post2` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0%2Bcu124torch2.5.1.post2-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.5.1` | `12.4` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu124torch2.5.1.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post1` | `3.9` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu126torch2.6.0.post1-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post2` | `3.9` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0%2Bcu126torch2.6.0.post2-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.6.0` | `12.6` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu126torch2.6.0.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post1` | `3.9` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu128torch2.7.1.post1-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post2` | `3.9` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0%2Bcu128torch2.7.1.post2-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu128torch2.7.1.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0` | `3.9` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp39-cp39-win_amd64.whl) |
+| `2.2.0.post1` | `3.9` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post1/sageattention-2.2.0%2Bcu128torch2.8.0.post1-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post2` | `3.9` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0%2Bcu128torch2.8.0.post2-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu128torch2.8.0.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0` | `3.9` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp39-cp39-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.9.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu128torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post4` | `3.9` | `2.9.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu128torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post3` | `3.9` | `2.9.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post3/sageattention-2.2.0%2Bcu130torch2.9.0.post3-cp39-abi3-win_amd64.whl) |
+| `2.2.0.post4` | `3.9` | `2.9.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post4/sageattention-2.2.0%2Bcu130torch2.9.0andhigher.post4-cp39-abi3-win_amd64.whl) |
+| `2.2.0` | `3.10` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp310-cp310-win_amd64.whl) |
+| `2.2.0` | `3.10` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp310-cp310-win_amd64.whl) |
+| `2.2.0.post5` | `3.10` | `2.9.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post5/sageattention-2.2.0%2Bcu128torch2.9.1.post5-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post6` | `3.10` | `2.9.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu128torch2.9.1.post6-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post5` | `3.10` | `2.9.1` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post5/sageattention-2.2.0%2Bcu130torch2.9.1.post5-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post6` | `3.10` | `2.9.1` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu130torch2.9.1.post6-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post5` | `3.10` | `2.10.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post5/sageattention-2.2.0%2Bcu128torch2.10.0andhigher.post5-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post6` | `3.10` | `2.10.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu128torch2.10.0andhigher.post6-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post5` | `3.10` | `2.10.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post5/sageattention-2.2.0%2Bcu130torch2.10.0andhigher.post5-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post6` | `3.10` | `2.10.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu130torch2.10.0andhigher.post6-cp310-abi3-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.6.0` | `12.4` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu124torch260-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.9.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch290%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.0-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.9.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch291%2Bcu130/sageattention-2.2.0%2Bcu130torch2.9.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.10.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2100%2Bcu130/sageattention-2.2.0%2Bcu130torch2.10.0-cp311-cp311-win_amd64.whl.whl) |
+| `2.2.0` | `3.11` | `2.11.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2110%2Bcu130/sageattention-2.2.0%2Bcu130torch2.11.0-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.12.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2121%2Bcu130/sageattention-2.2.0%2Bcu130torch2.12.1-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.13.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2130%2Bcu130/sageattention-2.2.0%2Bcu130torch2.13.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
+| `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
+| `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0%2Bcu128torch2.9.0cxx11abi1-cp312-cp312-win_amd64.whl) |
+| `2.2.0` | `3.12` | `2.9.1` | `13.0` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu130torch291-cp312-cp312-win_amd64.whl) |
 | `2.2.0.post3` | `3.12` | `2.10.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.10.0-cp312-cp312-win_amd64.whl) |
+| `2.2.0` | `3.13` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp313-cp313-win_amd64.whl) |
+| `2.2.0` | `3.13` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.8.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.8.0` | `12.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu129torch2.8.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.9.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.9.0-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.9.0` | `12.9` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu129torch2.9.0-cp313-cp313-win_amd64.whl) |
+| `2.2.0` | `3.13` | `2.9.1` | `13.0` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu130torch291-cp313-cp313-win_amd64.whl) |
 | `2.2.0.post3` | `3.13` | `2.10.0` | `12.8` | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/sageattention-2.2.0.post3%2Bcu128torch2.10.0-cp313-cp313-win_amd64.whl) |
 <!-- END_SAGEATTENTION22_TABLE -->
 </details>
@@ -590,7 +656,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 ### ⚙️ SageAttention 3
 用于推理的微缩放 FP4 注意力机制 和 8 位训练的探索，目前仅支持 Blackwell 架构。
 *   **官方仓库**： [thu-ml/SageAttention](https://github.com/thu-ml/SageAttention/tree/main/sageattention3_blackwell)
-*   **预编译来源**： <!-- START_SAGEATTENTION3_SOURCES -->[Mengqin](https://github.com/mengqin/SageAttention/releases)<!-- END_SAGEATTENTION3_SOURCES -->
+*   **预编译来源**： <!-- START_SAGEATTENTION3_SOURCES -->[sdbds](https://github.com/sdbds/SageAttention-for-windows/releases)、[Mengqin](https://github.com/mengqin/SageAttention/releases)<!-- END_SAGEATTENTION3_SOURCES -->
 > [!NOTE]
 > SageAttention3 不保證所有型號的無損加速。對於其他影片產生模型,我們建議在某些圖層或時間步長中選擇性地使用 SageAttention2++
 
@@ -601,7 +667,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | Package Version | Python Ver | PyTorch Ver | CUDA Ver | Source | Download Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | `1.0.0` | `3.11` | `2.7.1` | `12.8` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251214/sageattn3-1.0.0%2Bcu128torch271-cp311-cp311-win_amd64.whl) |
-| `1.0.0` | `3.11` | `2.8.0` | `12.8` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251214/sageattn3-1.0.0%2Bcu128torch280-cp311-cp311-win_amd64.whl) |
+| `1.0.0` | `3.11` | `2.8.0` | `12.8` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/SA3-1.0.0/sageattn3-1.0.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
 | `1.0.0` | `3.12` | `2.7.1` | `12.8` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251214/sageattn3-1.0.0%2Bcu128torch271-cp312-cp312-win_amd64.whl) |
 | `1.0.0` | `3.12` | `2.8.0` | `12.8` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251214/sageattn3-1.0.0%2Bcu128torch280-cp312-cp312-win_amd64.whl) |
 | `1.0.0` | `3.12` | `2.9.1` | `13.0` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251214/sageattn3-1.0.0%2Bcu130torch291-cp312-cp312-win_amd64.whl) |
