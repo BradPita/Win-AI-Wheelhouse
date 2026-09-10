@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-09-09T05:32:40.296024+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-09-10T05:26:37.907386+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -273,12 +273,17 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.10` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `3.10` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `3.10` | `2.14` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu126torch2.14-cp310-cp310-win_amd64.whl) |
+| `2.8.3` | `3.10` | `2.14` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu130torch2.14-cp310-cp310-win_amd64.whl) |
+| `2.8.3` | `3.10` | `2.14` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu132torch2.14-cp310-cp310-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.12` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.26/flash_attn-2.8.3%2Bcu126torch2.12-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.12` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.23/flash_attn-2.8.3%2Bcu130torch2.12-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.12` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.26/flash_attn-2.8.3%2Bcu132torch2.12-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.13` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu126torch2.13-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.11` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp311-cp311-win_amd64.whl) |
+| `2.8.3` | `3.11` | `2.14` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu126torch2.14-cp311-cp311-win_amd64.whl) |
+| `2.8.3` | `3.11` | `2.14` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu130torch2.14-cp311-cp311-win_amd64.whl) |
+| `2.8.3` | `3.11` | `2.14` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu132torch2.14-cp311-cp311-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.8.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.8.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu126torch2.9-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.9.0` | `12.8` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.3%2Bcu128torch2.9.0cxx11abiTRUE-cp312-cp312-win_amd64.whl) |
@@ -298,6 +303,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.12` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.12` | `2.14` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu126torch2.14-cp312-cp312-win_amd64.whl) |
+| `2.8.3` | `3.12` | `2.14` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu130torch2.14-cp312-cp312-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.8` | `12.8` | — | BradPita | [Link](https://huggingface.co/BradPita/Win-AI-Wheelhouse/blob/main/flash_attn-2.8.3%2Bcu128torch2.8-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu126torch2.9-cp313-cp313t-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.9` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.27/flash_attn-2.8.3%2Bcu128torch2.9-cp313-cp313t-win_amd64.whl) |
@@ -322,6 +328,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.13` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.13` | `2.14` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu126torch2.14-cp313-cp313-win_amd64.whl) |
+| `2.8.3` | `3.13` | `2.14` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu130torch2.14-cp313-cp313-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.9` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu126torch2.9-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.9` | `12.8` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu128torch2.9-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.9` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.28/flash_attn-2.8.3%2Bcu130torch2.9-cp314-cp314-win_amd64.whl) |
@@ -335,6 +342,7 @@ PyTorch 官方音频处理库，提供音频 I/O、转换和特征提取等功�
 | `2.8.3` | `3.14` | `2.13` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu130torch2.13-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.13` | `13.2` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.52/flash_attn-2.8.3%2Bcu132torch2.13-cp314-cp314-win_amd64.whl) |
 | `2.8.3` | `3.14` | `2.14` | `12.6` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu126torch2.14-cp314-cp314-win_amd64.whl) |
+| `2.8.3` | `3.14` | `2.14` | `13.0` | — | mjun0812 | [Link](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.10.2/flash_attn-2.8.3%2Bcu130torch2.14-cp314-cp314-win_amd64.whl) |
 | `2.8.4` | `3.13` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.11.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.4` | `3.13` | `2.12.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.12.0cxx11abiTRUE-cp313-cp313-win_amd64.whl) |
 | `2.8.4` | `3.14` | `2.11.0` | `13.0` | ✓ | Wildminder | [Link](https://huggingface.co/Wildminder/AI-windows-whl/blob/main/flash_attn-2.8.4%2Bd20260328cu130torch2.11.0cxx11abiTRUE-cp314-cp314-win_amd64.whl) |
@@ -1164,7 +1172,7 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 ### ⚙️ bitsandbytes
 轻量级 CUDA 算子库，提供 8-bit 优化器和 LLM 量化支持，大幅降低显存需求。
 *   **官方仓库**： [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
-*   **预编译来源**： <!-- START_BITSANDBYTES_SOURCES --><!-- END_BITSANDBYTES_SOURCES -->
+*   **预编译来源**： <!-- START_BITSANDBYTES_SOURCES -->[jllllll](https://github.com/jllllll/bitsandbytes-windows-webui/releases)、[bitsandbytes-foundation](https://github.com/bitsandbytes-foundation/bitsandbytes/releases)<!-- END_BITSANDBYTES_SOURCES -->
 
 <details>
   <summary>展开已收录的 bitsandbytes</summary>
@@ -1172,6 +1180,24 @@ MIT 开发的 Transformer 推理加速库，专注于提升解码速度和吞吐
 <!-- START_BITSANDBYTES_TABLE -->
 | Package Version | Source | Download Link |
 |:---:|:---:|:---:|
+| `0.35.0` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.35.0-py3-none-win_amd64.whl) |
+| `0.35.4` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.35.4-py3-none-win_amd64.whl) |
+| `0.37.2` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.37.2-py3-none-win_amd64.whl) |
+| `0.38.1` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.38.1-py3-none-win_amd64.whl) |
+| `0.39.0` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.39.0-py3-none-win_amd64.whl) |
+| `0.39.1` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.39.1-py3-none-win_amd64.whl) |
+| `0.40.0` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.40.0-py3-none-win_amd64.whl) |
+| `0.40.0.post4` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.40.0.post4-py3-none-win_amd64.whl) |
+| `0.40.1.post1` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.40.1.post1-py3-none-win_amd64.whl) |
+| `0.40.2` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.40.2-py3-none-win_amd64.whl) |
+| `0.41.0` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.0-py3-none-win_amd64.whl) |
+| `0.41.1` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl) |
+| `0.41.2.post2` | jllllll | [Link](https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.2.post2-py3-none-win_amd64.whl) |
+| `0.43.0` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/0.43.0/bitsandbytes-0.43.0-py3-none-win_amd64.whl) |
+| `0.43.1` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/0.43.1/bitsandbytes-0.43.1-py3-none-win_amd64.whl) |
+| `0.43.2` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/0.43.2/bitsandbytes-0.43.2-py3-none-win_amd64.whl) |
+| `1.0.0` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-1.0.0-py3-none-win_amd64.whl) |
+| `1.33.7.preview` | bitsandbytes-foundation | [Link](https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_main/bitsandbytes-1.33.7.preview-py3-none-win_amd64.whl) |
 <!-- END_BITSANDBYTES_TABLE -->
 </details>
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
