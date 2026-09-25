@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-09-24T05:38:56.205291+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-09-25T05:35:58.115172+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -651,6 +651,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0` | `3.11` | `2.11.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2110%2Bcu130/sageattention-2.2.0%2Bcu130torch2.11.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.12.1` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2121%2Bcu130/sageattention-2.2.0%2Bcu130torch2.12.1-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.13.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2130%2Bcu130/sageattention-2.2.0%2Bcu130torch2.13.0-cp311-cp311-win_amd64.whl) |
+| `2.2.0` | `3.11` | `2.14.0` | `13.0` | sdbds | [Link](https://github.com/sdbds/SageAttention-for-windows/releases/download/torch2140%2Bcu130/sageattention-2.2.0%2Bcu130torch2.14.0-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.0` | `12.8` | Eddy | [Link](https://huggingface.co/eddy1111111/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64/blob/main/sageattention-2.2.0-cp312-270-cu128-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp312-cp312-win_amd64.whl) |
 | `2.2.0` | `3.12` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp312-cp312-win_amd64.whl) |
