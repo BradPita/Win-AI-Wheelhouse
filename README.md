@@ -10,7 +10,7 @@
     面向 Windows 平台的 AI 预编译 Python 轮子合集
     <br />
     <br />
-    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-10-09T06:57:50.711768+00:00<!-- END_LAST_UPDATED --></strong>
+    <strong>⏱️ 最后自动更新（UTC）：<!-- START_LAST_UPDATED -->2026-10-10T06:32:29.066115+00:00<!-- END_LAST_UPDATED --></strong>
   </p>
 </div>
 
@@ -642,6 +642,7 @@ SageAttention 的升级版本，引入更先进的量化策略和优化算法，
 | `2.2.0.post6` | `3.10` | `2.10.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu128torch2.10.0andhigher.post6-cp310-abi3-win_amd64.whl) |
 | `2.2.0.post5` | `3.10` | `2.10.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post5/sageattention-2.2.0%2Bcu130torch2.10.0andhigher.post5-cp310-abi3-win_amd64.whl) |
 | `2.2.0.post6` | `3.10` | `2.10.0` | `13.0` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post6/sageattention-2.2.0%2Bcu130torch2.10.0andhigher.post6-cp310-abi3-win_amd64.whl) |
+| `2.2.0.post7` | `3.10` | `2.11.0` | — | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post7/sageattention-2.2.0%2Brocm10.0torch2.11.0andhigher.post7-cp310-abi3-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.6.0` | `12.4` | Mengqin | [Link](https://github.com/mengqin/SageAttention/releases/download/20251207/sageattention-2.2.0%2Bcu124torch260-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.7.1` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.7.1-cp311-cp311-win_amd64.whl) |
 | `2.2.0` | `3.11` | `2.8.0` | `12.8` | woct0rdho | [Link](https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0%2Bcu128torch2.8.0-cp311-cp311-win_amd64.whl) |
